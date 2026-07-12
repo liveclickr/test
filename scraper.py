@@ -12,26 +12,35 @@ CF_API_TOKEN = os.environ.get("CF_API_TOKEN", "").strip()
 
 # স্ট্যান্ডার্ড ব্রাউজার রিকোয়েস্ট নিশ্চিত করার জন্য হেডারস
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Referer": "https://nongorplay.live/",
+    "Connection": "keep-alive"
 }
 
 def fetch_url_content(url):
     try:
         r = requests.get(url, headers=HEADERS, timeout=15)
+        print(f"[STATUS] Fetching {url} - Server returned status code: {r.status_code}")
+        
         if r.status_code == 200:
             return r.text
+        else:
+            print(f"[WARN] Non-200 response from {url}. Status: {r.status_code}")
+            # ক্লাউডফ্লেয়ার ব্লক কি না তা পরীক্ষা করা হচ্ছে
+            if "cloudflare" in r.text.lower() or "turnstile" in r.text.lower() or "challenge-platform" in r.text.lower():
+                print("[CLOUDFLARE BLOCK] Detected Cloudflare Security/Firewall blocking this request!")
     except Exception as e:
         print(f"[ERROR] Failed to fetch {url}: {e}")
     return ""
 
 def get_embedded_sources(html):
-    # এইচটিএমএল কোডের ভেতর থেকে সমস্ত প্লেয়ার এবং স্ক্রিপ্ট লিঙ্ক খুঁজে বের করা
     urls = re.findall(r'(https?://[^\s"\'><]+)', html)
     valid_urls = []
     player_keywords = ["qzz.io", "trophystream", "lovetier", "deviantart", "grita", "thebosstv", "stream", "player", "embed", "videx", "gomstream"]
     
     for url in urls:
-        # লিঙ্ক ক্লিনআপ
         url_clean = url.replace('\\', '').split('"')[0].split("'")[0]
         if any(kw in url_clean.lower() for kw in player_keywords):
             if url_clean not in valid_urls:
@@ -39,7 +48,6 @@ def get_embedded_sources(html):
     return valid_urls
 
 def extract_m3u8_from_html(html):
-    # ইউআরএল ডিকোড করা হচ্ছে যাতে স্ক্রিপ্টটি সহজেই লিঙ্কগুলো রিড করতে পারে
     decoded_html = urllib.parse.unquote(html)
     m3u8_links = re.findall(r'(https?://[^\s"\'><]+\.m3u8(?:\?[^\s"\'><]+)?)', decoded_html)
     return m3u8_links
@@ -77,7 +85,6 @@ if __name__ == "__main__":
         
     compiled_html = html
     
-    # প্লেয়ার লিঙ্ক ও আইফ্রেম খোঁজা হচ্ছে
     print("Step 2: Scanning for embedded stream players...")
     embeds = get_embedded_sources(html)
     print(f"Found {len(embeds)} potential player links. Fetching them...")
@@ -88,7 +95,6 @@ if __name__ == "__main__":
         if embed_html:
             compiled_html += "\n" + embed_html
             
-    # লাইভ .m3u8 লিঙ্ক খোঁজা হচ্ছে
     print("\nStep 3: Searching and extracting .m3u8 stream tokens...")
     m3u8_urls = extract_m3u8_from_html(compiled_html)
     
@@ -97,13 +103,10 @@ if __name__ == "__main__":
         if any(kw in m3u8_url.lower() for kw in ["hls", "live", "stream", "tracks", "mono", "playlist", "chunks"]):
             
             slug = None
-            
-            # লিঙ্ক থেকে ডাইনামিকভাবে চ্যানেলের নাম (যেমন: tsn1, tsn3, tsn4) বের করা হচ্ছে
             slug_match = re.search(r'deviantart\.lovetier\.bz/([^/]+)/', m3u8_url)
             if slug_match:
-                slug = slug_match.group(1).lower() # এটি হবে "tsn1" অথবা "tsn3"
+                slug = slug_match.group(1).lower()
                 
-            # যদি নাম খুঁজে না পায় তবে জেনেরিক নাম ব্যবহার করবে
             if not slug:
                 slug = f"stream-{found_streams_count + 1}"
                 
