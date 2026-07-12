@@ -1,22 +1,12 @@
 import os
 import re
-import json
+import urllib.parse
 import requests
 
-# ক্লাউডফ্লেয়ার এনভায়রনমেন্ট ভ্যারিয়েবল (Secrets থেকে অটোমেটিক লোড হবে)
+# ক্লাউডফ্লেয়ার এনভায়রনমেন্ট ভ্যারিয়েবল
 CF_ACCOUNT_ID = os.environ.get("CF_ACCOUNT_ID")
 CF_KV_NAMESPACE_ID = os.environ.get("CF_KV_NAMESPACE_ID")
 CF_API_TOKEN = os.environ.get("CF_API_TOKEN")
-
-# আপনার চ্যানেল আইডি এবং সেগুলোর বেস ইউআরএল (Base URL)
-CHANNELS = {
-    "ithh1xe7c01n2": "https://gxqkdba3q70p.48552462.net:8443/hls/",
-    "g8yy3cfv128h5": "https://y4mpwzd7.12703830.net:8443/hls/",
-    "nessgjp115wr8": "https://gxqkdba3q70p.48552462.net:8443/hls/",
-    "o9mmstuhtgqjq": "https://gxqkdba3q70p.48552462.net:8443/hls/",
-    "ulgk1vzsw8aqr": "https://gxqkdba3q70p.48552462.net:8443/hls/",
-    "cd88is8arjavh": "https://gxqkdba3q70p.48552462.net:8443/hls/"
-}
 
 # স্ট্যান্ডার্ড ব্রাউজার রিকোয়েস্ট নিশ্চিত করার জন্য হেডারস
 HEADERS = {
@@ -36,7 +26,7 @@ def get_post_links():
             for m in matches1:
                 links.add(m)
                 
-            # রিলেティブ লিঙ্ক খোঁজা হচ্ছে (/2026/07/post.html)
+            # রিলেটিভ লিঙ্ক খোঁজা হচ্ছে (/2026/07/post.html)
             pattern2 = r'href=["\'](/\d{4}/\d{2}/[^"\']+\.html)'
             matches2 = re.findall(pattern2, html)
             for m in matches2:
@@ -57,31 +47,36 @@ def fetch_url_content(url):
     return ""
 
 def get_iframe_sources(html):
-    # পেইজের ভেতর থাকা সমস্ত iframe এর src লিঙ্ক খুঁজে বের করা
-    iframe_urls = re.findall(r'<iframe[^>]+src=["\'](https?://[^"\']+)["\']', html, re.IGNORECASE)
+    # এইচটিএমএল এর ভেতর থাকা সমস্ত প্লেয়ার লিঙ্ক খুঁজে বের করা
+    urls = re.findall(r'(https?://[^\s"\'><]+)', html)
     valid_urls = []
-    # স্ট্রিমিং প্লেয়ারের কমন ডোমেন কিওয়ার্ড ফিল্টার
-    player_keywords = ["qzz.io", "trophystream", "lovetier", "deviantart", "grita", "thebosstv", "stream", "player", "embed", "videx"]
-    for url in iframe_urls:
-        if any(kw in url.lower() for kw in player_keywords):
-            valid_urls.append(url)
+    player_keywords = ["qzz.io", "trophystream", "lovetier", "deviantart", "grita", "thebosstv", "stream", "player", "embed", "videx", "gomstream"]
+    for url in urls:
+        # লিঙ্ক ক্লিনআপ
+        url_clean = url.replace('\\', '').split('"')[0].split("'")[0]
+        if any(kw in url_clean.lower() for kw in player_keywords):
+            if url_clean not in valid_urls:
+                valid_urls.append(url_clean)
     return valid_urls
 
-def update_cloudflare_kv(channel_id, token, base_url):
-    url = f"https://api.cloudflare.com/client/v4/accounts/{CF_ACCOUNT_ID}/storage/kv/namespaces/{CF_KV_NAMESPACE_ID}/values/{channel_id}"
+def extract_m3u8_from_html(html):
+    # ইউআরএল ডিকোড করা হচ্ছে (যাতে URL-encoded .m3u8 লিঙ্কগুলোও ধরা পড়ে)
+    decoded_html = urllib.parse.unquote(html)
+    # যেকোনো .m3u8 লিঙ্ক খুঁজে বের করার প্যাটার্ন
+    m3u8_links = re.findall(r'(https?://[^\s"\'><]+\.m3u8(?:\?[^\s"\'><]+)?)', decoded_html)
+    return m3u8_links
+
+def update_cloudflare_kv(slug, stream_url):
+    url = f"https://api.cloudflare.com/client/v4/accounts/{CF_ACCOUNT_ID}/storage/kv/namespaces/{CF_KV_NAMESPACE_ID}/values/{slug}"
     headers = {
         "Authorization": f"Bearer {CF_API_TOKEN}",
-        "Content-Type": "application/json"
+        "Content-Type": "text/plain" # সরাসরি টেক্সট ফরমেটে ফুল লিঙ্কটি রাইট করা হচ্ছে
     }
-    data = {
-        "token": token,
-        "base_url": base_url
-    }
-    r = requests.put(url, headers=headers, data=json.dumps(data))
+    r = requests.put(url, headers=headers, data=stream_url)
     if r.status_code == 200:
-        print(f"[KV SAVED] {channel_id} is successfully updated in Cloudflare!")
+        print(f"[KV SAVED] Key '{slug}' is updated with URL: {stream_url}")
     else:
-        print(f"[KV ERROR] Failed to save {channel_id}: {r.text}")
+        print(f"[KV ERROR] Failed to save '{slug}': {r.text}")
 
 if __name__ == "__main__":
     if not CF_ACCOUNT_ID or not CF_KV_NAMESPACE_ID or not CF_API_TOKEN:
@@ -95,30 +90,39 @@ if __name__ == "__main__":
         print("[CRITICAL] Could not find any post links on the homepage!")
         exit(1)
         
-    print("Step 2: Fetching HTML content of each post page and their embedded iframes...")
-    combined_html_content = ""
+    print("Step 2: Processing each post dynamically...")
     for post in posts:
-        print(f"Opening post: {post}")
+        # পোস্ট লিঙ্ক থেকে স্লাগ (যেমন: tsn-4 বা somoy) আলাদা করা হচ্ছে
+        slug_match = re.search(r'/([^/]+)\.html', post)
+        if not slug_match:
+            continue
+        slug = slug_match.group(1)
+        print(f"\nProcessing post: '{slug}' ({post})")
+        
+        # পোস্টের কন্টেন্ট রিড করা হচ্ছে
         post_html = fetch_url_content(post)
-        if post_html:
-            combined_html_content += "\n" + post_html
-            # পোস্টের ভেতর কোনো ইমবেডেড প্লেয়ার (iframe) আছে কি না চেক করা হচ্ছে
-            iframes = get_iframe_sources(post_html)
-            for iframe_url in iframes:
-                print(f"  -> Found embedded player iframe: {iframe_url}")
-                # আইফ্রেম পেজটি ওপেন করে তার HTML ও যুক্ত করা হচ্ছে
-                iframe_html = fetch_url_content(iframe_url)
-                if iframe_html:
-                    combined_html_content += "\n" + iframe_html
-                    
-    print("Step 3: Searching tokens inside the compiled contents...")
-    for channel_id, base_url in CHANNELS.items():
-        print(f"Searching token for {channel_id}...")
-        pattern = rf"{channel_id}\.m3u8\?(s=[a-zA-Z0-9_-]+&e=\d+)"
-        match = re.search(pattern, combined_html_content)
-        if match:
-            fresh_token = match.group(1)
-            print(f"[SUCCESS] Found working token for {channel_id}: {fresh_token}")
-            update_cloudflare_kv(channel_id, fresh_token, base_url)
-        else:
-            print(f"[NOT FOUND] Could not find any active token for {channel_id}.")
+        if not post_html:
+            continue
+            
+        compiled_html = post_html
+        iframes = get_iframe_sources(post_html)
+        for iframe_url in iframes:
+            print(f"  -> Fetching embedded player: {iframe_url}")
+            iframe_html = fetch_url_content(iframe_url)
+            if iframe_html:
+                compiled_html += "\n" + iframe_html
+                
+        # সম্পূর্ণ কন্টেন্ট থেকে .m3u8 লিঙ্ক খোঁজা হচ্ছে
+        m3u8_urls = extract_m3u8_from_html(compiled_html)
+        
+        found_stream = False
+        for m3u8_url in m3u8_urls:
+            # বিজ্ঞাপন এড়াতে রিয়াল লাইভ স্ট্রিমের কিওয়ার্ড ফিল্টার
+            if any(kw in m3u8_url.lower() for kw in ["hls", "live", "stream", "tracks", "mono", "playlist", "chunks"]):
+                print(f"  [FOUND] Working stream for '{slug}': {m3u8_url}")
+                update_cloudflare_kv(slug, m3u8_url)
+                found_stream = True
+                break # ১ম ওয়ার্কিং লিঙ্কটি পাওয়ামাত্র লুপ ব্রেক করা হচ্ছে
+                
+        if not found_stream:
+            print(f"  [NOT FOUND] No active stream found inside '{slug}' post.")
