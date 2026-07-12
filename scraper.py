@@ -1,34 +1,64 @@
-import requests
+import os
 import re
 import json
+import requests
 
-# আপনার ক্লাউডফ্লেয়ারের ডিটেইলস (এগুলো সিক্রেট হিসেবে থাকবে)
-CF_ACCOUNT_ID = "YOUR_CLOUDFLARE_ACCOUNT_ID"
-CF_KV_NAMESPACE_ID = "YOUR_KV_NAMESPACE_ID"
-CF_API_TOKEN = "YOUR_CLOUDFLARE_API_TOKEN"
+# ক্লাউডফ্লেয়ার এবং গিটহাব এনভায়রনমেন্ট ভ্যারিয়েবল (Secrets থেকে অটোমেটিক লোড হবে)
+CF_ACCOUNT_ID = os.environ.get("CF_ACCOUNT_ID")
+CF_KV_NAMESPACE_ID = os.environ.get("CF_KV_NAMESPACE_ID")
+CF_API_TOKEN = os.environ.get("CF_API_TOKEN")
+GH_TOKEN = os.environ.get("GITHUB_TOKEN") # গিটহাব অ্যাকশনের নিজস্ব বিল্ট-ইন টোকেন
 
-# যে চ্যানেলগুলো আপডেট করতে চান তার তালিকা
+# আপনার চ্যানেল আইডি এবং সেগুলোর বেস ইউআরএল (Base URL)
 CHANNELS = {
     "ithh1xe7c01n2": "https://gxqkdba3q70p.48552462.net:8443/hls/",
-    "g8yy3cfv128h5": "https://y4mpwzd7.12703830.net:8443/hls/"
+    "g8yy3cfv128h5": "https://y4mpwzd7.12703830.net:8443/hls/",
+    "nessgjp115wr8": "https://gxqkdba3q70p.48552462.net:8443/hls/",
+    "o9mmstuhtgqjq": "https://gxqkdba3q70p.48552462.net:8443/hls/",
+    "ulgk1vzsw8aqr": "https://gxqkdba3q70p.48552462.net:8443/hls/",
+    "cd88is8arjavh": "https://gxqkdba3q70p.48552462.net:8443/hls/"
 }
 
-# সোর্স সাইট বা গিটহাবের পেজ যেখান থেকে টোকেন রিড করতে হবে
-# পরীক্ষার জন্য আমরা এমন একটি সোর্স ব্যবহার করব যেখানে এই লিঙ্কগুলো নিয়মিত আপডেট হয়
-SOURCE_URL = "https://raw.githubusercontent.com/someuser/somerepo/main/live_links.txt" # এখানে আপনার টার্গেট সোর্স বসাবেন
-
-def fetch_fresh_token(channel_id):
+def search_github_for_token(channel_id):
+    headers = {
+        "Accept": "application/vnd.github+json",
+    }
+    if GH_TOKEN:
+        headers["Authorization"] = f"Bearer {GH_TOKEN}"
+        
+    # গিটহাবে ইউনিক চ্যানেল আইডি দিয়ে কোড সার্চ কুয়েরি করা হচ্ছে
+    query = f"{channel_id}.m3u8"
+    url = f"https://api.github.com/search/code?q={query}"
+    
     try:
-        response = requests.get(SOURCE_URL, timeout=10)
-        if response.status_code == 200:
-            content = response.text
-            # Regex দিয়ে নির্দিষ্ট চ্যানেলের সচল টোকেনটি খুঁজে বের করা
-            pattern = rf"{channel_id}\.m3u8\?(s=[a-zA-Z0-9_-]+&e=\d+)"
-            match = re.search(pattern, content)
-            if match:
-                return match.group(1) # যেমন: s=fCv9PCNMgspC-bGsxHY_hA&e=1783851690
+        r = requests.get(url, headers=headers, timeout=15)
+        if r.status_code == 200:
+            data = r.json()
+            items = data.get("items", [])
+            for item in items[:5]:  # সেরা ৫টি সার্চ রেজাল্ট চেক করা হবে
+                raw_url = item.get("html_url", "").replace("github.com", "raw.githubusercontent.com").replace("/blob/", "/")
+                raw_r = requests.get(raw_url, timeout=10)
+                if raw_r.status_code == 200:
+                    content = raw_r.text
+                    # লিঙ্ক থেকে s=... এবং e=... প্যারামিটারটি খোঁজা হচ্ছে
+                    pattern = rf"{channel_id}\.m3u8\?(s=[a-zA-Z0-9_-]+&e=\d+)"
+                    match = re.search(pattern, content)
+                    if match:
+                        potential_token = match.group(1)
+                        
+                        # টোকেনটি সচল কি না তা সার্ভারে রিকোয়েস্ট পাঠিয়ে নিশ্চিত করা হচ্ছে
+                        test_url = f"{CHANNELS[channel_id]}{channel_id}.m3u8?{potential_token}"
+                        try:
+                            head_r = requests.head(test_url, timeout=5)
+                            if head_r.status_code == 200:
+                                print(f"[SUCCESS] verified working token for {channel_id}: {potential_token}")
+                                return potential_token
+                        except Exception:
+                            pass
+        else:
+            print(f"[API ERROR] GitHub Search returned status {r.status_code} for {channel_id}.")
     except Exception as e:
-        print(f"Error fetching token for {channel_id}: {e}")
+        print(f"[ERROR] Searching failed for {channel_id}: {e}")
     return None
 
 def update_cloudflare_kv(channel_id, token, base_url):
@@ -41,17 +71,21 @@ def update_cloudflare_kv(channel_id, token, base_url):
         "token": token,
         "base_url": base_url
     }
-    
-    response = requests.put(url, headers=headers, data=json.dumps(data))
-    if response.status_code == 200:
-        print(f"Successfully updated KV for {channel_id}")
+    r = requests.put(url, headers=headers, data=json.dumps(data))
+    if r.status_code == 200:
+        print(f"[KV SAVED] {channel_id} is successfully updated in Cloudflare!")
     else:
-        print(f"Failed to update KV: {response.text}")
+        print(f"[KV ERROR] Failed to save {channel_id}: {r.text}")
 
-# মেইন রানার
-for channel_id, base_url in CHANNELS.items():
-    fresh_token = fetch_fresh_token(channel_id)
-    if fresh_token:
-        update_cloudflare_kv(channel_id, fresh_token, base_url)
-    else:
-        print(f"Could not find active token for {channel_id}")
+if __name__ == "__main__":
+    if not CF_ACCOUNT_ID or not CF_KV_NAMESPACE_ID or not CF_API_TOKEN:
+        print("[CRITICAL] Missing Cloudflare credentials in environment variables!")
+        exit(1)
+        
+    for channel_id, base_url in CHANNELS.items():
+        print(f"Searching token for {channel_id}...")
+        token = search_github_for_token(channel_id)
+        if token:
+            update_cloudflare_kv(channel_id, token, base_url)
+        else:
+            print(f"Could not find any working token for {channel_id}.")
