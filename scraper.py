@@ -18,9 +18,9 @@ CHANNELS = {
     "cd88is8arjavh": "https://gxqkdba3q70p.48552462.net:8443/hls/"
 }
 
-# ব্লগার মোবাইল ভিউ রিকোয়েস্ট নিশ্চিত করার জন্য হেডারস
+# স্ট্যান্ডার্ড ব্রাউজার রিকোয়েস্ট নিশ্চিত করার জন্য হেডারস
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36"
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
 }
 
 def get_post_links():
@@ -36,7 +36,7 @@ def get_post_links():
             for m in matches1:
                 links.add(m)
                 
-            # রিলেটিভ লিঙ্ক খোঁজা হচ্ছে (/2026/07/post.html)
+            # রিলেティブ লিঙ্ক খোঁজা হচ্ছে (/2026/07/post.html)
             pattern2 = r'href=["\'](/\d{4}/\d{2}/[^"\']+\.html)'
             matches2 = re.findall(pattern2, html)
             for m in matches2:
@@ -47,17 +47,25 @@ def get_post_links():
         print(f"[ERROR] Failed to fetch homepage: {e}")
     return list(links)
 
-def fetch_post_content(post_url):
-    # মোবাইল ভার্সন নিশ্চিত করার জন্য m=1 যুক্ত করা হচ্ছে
-    if "?m=1" not in post_url and "&m=1" not in post_url:
-        post_url += "?m=1"
+def fetch_url_content(url):
     try:
-        r = requests.get(post_url, headers=HEADERS, timeout=10)
+        r = requests.get(url, headers=HEADERS, timeout=10)
         if r.status_code == 200:
             return r.text
     except Exception as e:
-        print(f"[ERROR] Failed to fetch post content for {post_url}: {e}")
+        print(f"[ERROR] Failed to fetch {url}: {e}")
     return ""
+
+def get_iframe_sources(html):
+    # পেইজের ভেতর থাকা সমস্ত iframe এর src লিঙ্ক খুঁজে বের করা
+    iframe_urls = re.findall(r'<iframe[^>]+src=["\'](https?://[^"\']+)["\']', html, re.IGNORECASE)
+    valid_urls = []
+    # স্ট্রিমিং প্লেয়ারের কমন ডোমেন কিওয়ার্ড ফিল্টার
+    player_keywords = ["qzz.io", "trophystream", "lovetier", "deviantart", "grita", "thebosstv", "stream", "player", "embed", "videx"]
+    for url in iframe_urls:
+        if any(kw in url.lower() for kw in player_keywords):
+            valid_urls.append(url)
+    return valid_urls
 
 def update_cloudflare_kv(channel_id, token, base_url):
     url = f"https://api.cloudflare.com/client/v4/accounts/{CF_ACCOUNT_ID}/storage/kv/namespaces/{CF_KV_NAMESPACE_ID}/values/{channel_id}"
@@ -80,27 +88,34 @@ if __name__ == "__main__":
         print("[CRITICAL] Missing Cloudflare credentials!")
         exit(1)
         
-    print("Step 1: Finding individual post links on homepage...")
+    print("Step 1: Finding post links on homepage...")
     posts = get_post_links()
     
     if not posts:
         print("[CRITICAL] Could not find any post links on the homepage!")
         exit(1)
         
-    # প্রতিটি পোস্ট পেজের কন্টেন্ট রিড করা হচ্ছে
-    print("Step 2: Fetching HTML content of each post page...")
-    combined_posts_html = ""
+    print("Step 2: Fetching HTML content of each post page and their embedded iframes...")
+    combined_html_content = ""
     for post in posts:
-        print(f"Opening: {post}")
-        html = fetch_post_content(post)
-        if html:
-            combined_posts_html += "\n" + html
-            
-    print("Step 3: Searching tokens inside the posts content...")
+        print(f"Opening post: {post}")
+        post_html = fetch_url_content(post)
+        if post_html:
+            combined_html_content += "\n" + post_html
+            # পোস্টের ভেতর কোনো ইমবেডেড প্লেয়ার (iframe) আছে কি না চেক করা হচ্ছে
+            iframes = get_iframe_sources(post_html)
+            for iframe_url in iframes:
+                print(f"  -> Found embedded player iframe: {iframe_url}")
+                # আইফ্রেম পেজটি ওপেন করে তার HTML ও যুক্ত করা হচ্ছে
+                iframe_html = fetch_url_content(iframe_url)
+                if iframe_html:
+                    combined_html_content += "\n" + iframe_html
+                    
+    print("Step 3: Searching tokens inside the compiled contents...")
     for channel_id, base_url in CHANNELS.items():
         print(f"Searching token for {channel_id}...")
         pattern = rf"{channel_id}\.m3u8\?(s=[a-zA-Z0-9_-]+&e=\d+)"
-        match = re.search(pattern, combined_posts_html)
+        match = re.search(pattern, combined_html_content)
         if match:
             fresh_token = match.group(1)
             print(f"[SUCCESS] Found working token for {channel_id}: {fresh_token}")
