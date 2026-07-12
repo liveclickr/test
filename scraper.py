@@ -15,37 +15,9 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
 }
 
-def get_post_links():
-    links = set()
-    home_url = "https://m3uworld4k.blogspot.com/?m=1"
-    try:
-        r = requests.get(home_url, headers=HEADERS, timeout=15)
-        if r.status_code == 200:
-            html = r.text
-            pattern1 = r'href=["\'](https://m3uworld4k\.blogspot\.com/\d{4}/\d{2}/[^"\']+\.html)'
-            matches1 = re.findall(pattern1, html)
-            for m in matches1:
-                links.add(m)
-                
-            pattern2 = r'href=["\'](/\d{4}/\d{2}/[^"\']+\.html)'
-            matches2 = re.findall(pattern2, html)
-            for m in matches2:
-                links.add("https://m3uworld4k.blogspot.com" + m)
-                
-            print(f"[SUCCESS] Found {len(links)} unique post links on homepage.")
-    except Exception as e:
-        print(f"[ERROR] Failed to fetch homepage: {e}")
-    return list(links)
-
 def fetch_url_content(url):
-    if "blogspot.com" in url and "?m=1" not in url and "&m=1" not in url:
-        if "?" in url:
-            url += "&m=1"
-        else:
-            url += "?m=1"
-            
     try:
-        r = requests.get(url, headers=HEADERS, timeout=10)
+        r = requests.get(url, headers=HEADERS, timeout=15)
         if r.status_code == 200:
             return r.text
     except Exception as e:
@@ -53,36 +25,21 @@ def fetch_url_content(url):
     return ""
 
 def get_embedded_sources(html):
-    iframe_urls = re.findall(r'<iframe[^>]+src=["\'](https?://[^"\']+)["\']', html, re.IGNORECASE)
-    script_urls = re.findall(r'<script[^>]+src=["\'](https?://[^"\']+)["\']', html, re.IGNORECASE)
-    raw_urls = re.findall(r'(https?://[^\s"\'><]+)', html)
-    
+    # এইচটিএমএল কোডের ভেতর থেকে সমস্ত প্লেয়ার এবং স্ক্রিপ্ট লিঙ্ক খুঁজে বের করা
+    urls = re.findall(r'(https?://[^\s"\'><]+)', html)
     valid_urls = []
     player_keywords = ["qzz.io", "trophystream", "lovetier", "deviantart", "grita", "thebosstv", "stream", "player", "embed", "videx", "gomstream"]
     
-    all_found = iframe_urls + script_urls + raw_urls
-    for url in all_found:
+    for url in urls:
+        # লিঙ্ক ক্লিনআপ
         url_clean = url.replace('\\', '').split('"')[0].split("'")[0]
         if any(kw in url_clean.lower() for kw in player_keywords):
             if url_clean not in valid_urls:
                 valid_urls.append(url_clean)
     return valid_urls
 
-def decode_base64_in_html(html_content):
-    b64_pattern = r'[a-zA-Z0-9+/]{24,}'
-    matches = re.findall(b64_pattern, html_content)
-    decoded_content = ""
-    for m in matches:
-        try:
-            padded_m = m + "=" * ((4 - len(m) % 4) % 4)
-            decoded = base64.b64decode(padded_m).decode("utf-8", errors="ignore")
-            if "http" in decoded or "m3u8" in decoded:
-                decoded_content += "\n" + decoded
-        except Exception:
-            pass
-    return decoded_content
-
 def extract_m3u8_from_html(html):
+    # ইউআরএল ডিকোড করা হচ্ছে যাতে স্ক্রিপ্টটি সহজেই লিঙ্কগুলো রিড করতে পারে
     decoded_html = urllib.parse.unquote(html)
     m3u8_links = re.findall(r'(https?://[^\s"\'><]+\.m3u8(?:\?[^\s"\'><]+)?)', decoded_html)
     return m3u8_links
@@ -100,7 +57,6 @@ def update_cloudflare_kv(slug, stream_url):
         print(f"  [KV ERROR] Failed to save '{slug}': {r.text}")
 
 if __name__ == "__main__":
-    # --- ডায়াগনস্টিকস চেক ---
     print("--- Cloudflare Credentials Diagnostic Check ---")
     print(f"Account ID Length: {len(CF_ACCOUNT_ID)} (Should be exactly 32)")
     print(f"KV Namespace ID Length: {len(CF_KV_NAMESPACE_ID)} (Should be exactly 32)")
@@ -111,48 +67,51 @@ if __name__ == "__main__":
         print("[CRITICAL] Missing Cloudflare credentials!")
         exit(1)
         
-    print("Step 1: Finding post links on homepage...")
-    posts = get_post_links()
+    print("Step 1: Fetching NongorPlay main page content...")
+    url = "https://nongorplay.live/watch/fifa-world-cup"
+    html = fetch_url_content(url)
     
-    if not posts:
-        print("[CRITICAL] Could not find any post links on the homepage!")
-        exit(1)
+    if not html:
+        print("[CRITICAL] Failed to fetch NongorPlay page content!")
+        exit(0)
         
-    print("Step 2: Processing each post dynamically...")
-    for post in posts:
-        slug_match = re.search(r'/([^/]+)\.html', post)
-        if not slug_match:
-            continue
-        slug = slug_match.group(1)
-        print(f"\nProcessing post: '{slug}' ({post})")
-        
-        post_html = fetch_url_content(post)
-        if not post_html:
-            continue
+    compiled_html = html
+    
+    # প্লেয়ার লিঙ্ক ও আইফ্রেম খোঁজা হচ্ছে
+    print("Step 2: Scanning for embedded stream players...")
+    embeds = get_embedded_sources(html)
+    print(f"Found {len(embeds)} potential player links. Fetching them...")
+    
+    for embed_url in embeds:
+        print(f"  -> Fetching embedded player/script: {embed_url}")
+        embed_html = fetch_url_content(embed_url)
+        if embed_html:
+            compiled_html += "\n" + embed_html
             
-        compiled_html = post_html
-        
-        embedded_sources = get_embedded_sources(post_html)
-        for embed_url in embedded_sources:
-            print(f"  -> Fetching embedded player/script: {embed_url}")
-            embed_html = fetch_url_content(embed_url)
-            if embed_html:
-                compiled_html += "\n" + embed_html
+    # লাইভ .m3u8 লিঙ্ক খোঁজা হচ্ছে
+    print("\nStep 3: Searching and extracting .m3u8 stream tokens...")
+    m3u8_urls = extract_m3u8_from_html(compiled_html)
+    
+    found_streams_count = 0
+    for m3u8_url in m3u8_urls:
+        if any(kw in m3u8_url.lower() for kw in ["hls", "live", "stream", "tracks", "mono", "playlist", "chunks"]):
+            
+            slug = None
+            
+            # লিঙ্ক থেকে ডাইনামিকভাবে চ্যানেলের নাম (যেমন: tsn1, tsn3, tsn4) বের করা হচ্ছে
+            slug_match = re.search(r'deviantart\.lovetier\.bz/([^/]+)/', m3u8_url)
+            if slug_match:
+                slug = slug_match.group(1).lower() # এটি হবে "tsn1" অথবা "tsn3"
                 
-        b64_decoded = decode_base64_in_html(post_html)
-        if b64_decoded:
-            print("  -> Decoded base64 data found.")
-            compiled_html += "\n" + b64_decoded
+            # যদি নাম খুঁজে না পায় তবে জেনেরিক নাম ব্যবহার করবে
+            if not slug:
+                slug = f"stream-{found_streams_count + 1}"
                 
-        m3u8_urls = extract_m3u8_from_html(compiled_html)
-        
-        found_stream = False
-        for m3u8_url in m3u8_urls:
-            if any(kw in m3u8_url.lower() for kw in ["hls", "live", "stream", "tracks", "mono", "playlist", "chunks"]):
-                print(f"  [FOUND] Working stream for '{slug}': {m3u8_url}")
-                update_cloudflare_kv(slug, m3u8_url)
-                found_stream = True
-                break
-                
-        if not found_stream:
-            print(f"  [NOT FOUND] No active stream found inside '{slug}' post.")
+            print(f"  [FOUND] Active stream found: {m3u8_url}")
+            update_cloudflare_kv(slug, m3u8_url)
+            found_streams_count += 1
+            
+    if found_streams_count == 0:
+        print("[NOT FOUND] No active streams found on NongorPlay page.")
+    else:
+        print(f"\n[COMPLETE] Successfully extracted and saved {found_streams_count} streams!")
