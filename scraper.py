@@ -3,11 +3,10 @@ import re
 import json
 import requests
 
-# ক্লাউডফ্লেয়ার এবং গিটহাব এনভায়রনমেন্ট ভ্যারিয়েবল (Secrets থেকে অটোমেটিক লোড হবে)
+# ক্লাউডফ্লেয়ার এনভায়রনমেন্ট ভ্যারিয়েবল (Secrets থেকে অটোমেটিক লোড হবে)
 CF_ACCOUNT_ID = os.environ.get("CF_ACCOUNT_ID")
 CF_KV_NAMESPACE_ID = os.environ.get("CF_KV_NAMESPACE_ID")
 CF_API_TOKEN = os.environ.get("CF_API_TOKEN")
-GH_TOKEN = os.environ.get("GITHUB_TOKEN") # গিটহাব অ্যাকশনের নিজস্ব বিল্ট-ইন টোকেন
 
 # আপনার চ্যানেল আইডি এবং সেগুলোর বেস ইউআরএল (Base URL)
 CHANNELS = {
@@ -19,47 +18,36 @@ CHANNELS = {
     "cd88is8arjavh": "https://gxqkdba3q70p.48552462.net:8443/hls/"
 }
 
-def search_github_for_token(channel_id):
-    headers = {
-        "Accept": "application/vnd.github+json",
-    }
-    if GH_TOKEN:
-        headers["Authorization"] = f"Bearer {GH_TOKEN}"
-        
-    # গিটহাবে ইউনিক চ্যানেল আইডি দিয়ে কোড সার্চ কুয়েরি করা হচ্ছে
-    query = f"{channel_id}.m3u8"
-    url = f"https://api.github.com/search/code?q={query}"
+def get_blogspot_content():
+    combined_content = ""
     
+    # ১. ব্লগস্পট ফিড ফেচ করা (সবচেয়ে নির্ভরযোগ্য সোর্স - এটি হিডেন পোস্টও রিড করতে পারে)
+    feed_url = "https://m3uworld4k.blogspot.com/feeds/posts/default?alt=json"
     try:
-        r = requests.get(url, headers=headers, timeout=15)
+        r = requests.get(feed_url, timeout=10)
         if r.status_code == 200:
             data = r.json()
-            items = data.get("items", [])
-            for item in items[:5]:  # সেরা ৫টি সার্চ রেজাল্ট চেক করা হবে
-                raw_url = item.get("html_url", "").replace("github.com", "raw.githubusercontent.com").replace("/blob/", "/")
-                raw_r = requests.get(raw_url, timeout=10)
-                if raw_r.status_code == 200:
-                    content = raw_r.text
-                    # লিঙ্ক থেকে s=... এবং e=... প্যারামিটারটি খোঁজা হচ্ছে
-                    pattern = rf"{channel_id}\.m3u8\?(s=[a-zA-Z0-9_-]+&e=\d+)"
-                    match = re.search(pattern, content)
-                    if match:
-                        potential_token = match.group(1)
-                        
-                        # টোকেনটি সচল কি না তা সার্ভারে রিকোয়েস্ট পাঠিয়ে নিশ্চিত করা হচ্ছে
-                        test_url = f"{CHANNELS[channel_id]}{channel_id}.m3u8?{potential_token}"
-                        try:
-                            head_r = requests.head(test_url, timeout=5)
-                            if head_r.status_code == 200:
-                                print(f"[SUCCESS] verified working token for {channel_id}: {potential_token}")
-                                return potential_token
-                        except Exception:
-                            pass
-        else:
-            print(f"[API ERROR] GitHub Search returned status {r.status_code} for {channel_id}.")
+            entries = data.get("feed", {}).get("entry", [])
+            for entry in entries:
+                content = entry.get("content", {}).get("$t", "")
+                summary = entry.get("summary", {}).get("$t", "")
+                title = entry.get("title", {}).get("$t", "")
+                combined_content += f"\n{title}\n{content}\n{summary}"
+            print("[FEED SUCCESS] Successfully fetched Blogspot posts feed.")
     except Exception as e:
-        print(f"[ERROR] Searching failed for {channel_id}: {e}")
-    return None
+        print(f"[FEED ERROR] Failed to fetch Blogger feed: {e}")
+        
+    # ২. ব্লগস্পট হোমপেইজ HTML ফেচ করা (ব্যাকআপ হিসেবে)
+    home_url = "https://m3uworld4k.blogspot.com/?m=1"
+    try:
+        r = requests.get(home_url, timeout=10)
+        if r.status_code == 200:
+            combined_content += "\n" + r.text
+            print("[HTML SUCCESS] Successfully fetched Blogspot homepage HTML.")
+    except Exception as e:
+        print(f"[HTML ERROR] Failed to fetch homepage HTML: {e}")
+        
+    return combined_content
 
 def update_cloudflare_kv(channel_id, token, base_url):
     url = f"https://api.cloudflare.com/client/v4/accounts/{CF_ACCOUNT_ID}/storage/kv/namespaces/{CF_KV_NAMESPACE_ID}/values/{channel_id}"
@@ -82,10 +70,21 @@ if __name__ == "__main__":
         print("[CRITICAL] Missing Cloudflare credentials in environment variables!")
         exit(1)
         
+    print("Fetching Blogspot content...")
+    raw_blogspot_data = get_blogspot_content()
+    
+    if not raw_blogspot_data:
+        print("[CRITICAL] Could not fetch any data from Blogspot!")
+        exit(1)
+        
     for channel_id, base_url in CHANNELS.items():
         print(f"Searching token for {channel_id}...")
-        token = search_github_for_token(channel_id)
-        if token:
-            update_cloudflare_kv(channel_id, token, base_url)
+        # Regex প্যাটার্ন দিয়ে টোকেন (s=...&e=...) অংশটি আলাদা করা হচ্ছে
+        pattern = rf"{channel_id}\.m3u8\?(s=[a-zA-Z0-9_-]+&e=\d+)"
+        match = re.search(pattern, raw_blogspot_data)
+        if match:
+            fresh_token = match.group(1)
+            print(f"[SUCCESS] Found working token for {channel_id}: {fresh_token}")
+            update_cloudflare_kv(channel_id, fresh_token, base_url)
         else:
-            print(f"Could not find any working token for {channel_id}.")
+            print(f"[NOT FOUND] Could not find any active token for {channel_id}.")
