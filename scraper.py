@@ -18,36 +18,46 @@ CHANNELS = {
     "cd88is8arjavh": "https://gxqkdba3q70p.48552462.net:8443/hls/"
 }
 
-def get_blogspot_content():
-    combined_content = ""
-    
-    # ১. ব্লগস্পট ফিড ফেচ করা (সবচেয়ে নির্ভরযোগ্য সোর্স - এটি হিডেন পোস্টও রিড করতে পারে)
-    feed_url = "https://m3uworld4k.blogspot.com/feeds/posts/default?alt=json"
-    try:
-        r = requests.get(feed_url, timeout=10)
-        if r.status_code == 200:
-            data = r.json()
-            entries = data.get("feed", {}).get("entry", [])
-            for entry in entries:
-                content = entry.get("content", {}).get("$t", "")
-                summary = entry.get("summary", {}).get("$t", "")
-                title = entry.get("title", {}).get("$t", "")
-                combined_content += f"\n{title}\n{content}\n{summary}"
-            print("[FEED SUCCESS] Successfully fetched Blogspot posts feed.")
-    except Exception as e:
-        print(f"[FEED ERROR] Failed to fetch Blogger feed: {e}")
-        
-    # ২. ব্লগস্পট হোমপেইজ HTML ফেচ করা (ব্যাকআপ হিসেবে)
+# ব্লগার মোবাইল ভিউ রিকোয়েস্ট নিশ্চিত করার জন্য হেডারস
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36"
+}
+
+def get_post_links():
+    links = set()
     home_url = "https://m3uworld4k.blogspot.com/?m=1"
     try:
-        r = requests.get(home_url, timeout=10)
+        r = requests.get(home_url, headers=HEADERS, timeout=15)
         if r.status_code == 200:
-            combined_content += "\n" + r.text
-            print("[HTML SUCCESS] Successfully fetched Blogspot homepage HTML.")
+            html = r.text
+            # ডিরেক্ট লিঙ্ক খোঁজা হচ্ছে (https://m3uworld4k.blogspot.com/2026/07/post.html)
+            pattern1 = r'href=["\'](https://m3uworld4k\.blogspot\.com/\d{4}/\d{2}/[^"\']+\.html)'
+            matches1 = re.findall(pattern1, html)
+            for m in matches1:
+                links.add(m)
+                
+            # রিলেটিভ লিঙ্ক খোঁজা হচ্ছে (/2026/07/post.html)
+            pattern2 = r'href=["\'](/\d{4}/\d{2}/[^"\']+\.html)'
+            matches2 = re.findall(pattern2, html)
+            for m in matches2:
+                links.add("https://m3uworld4k.blogspot.com" + m)
+                
+            print(f"[SUCCESS] Found {len(links)} unique post links on homepage.")
     except Exception as e:
-        print(f"[HTML ERROR] Failed to fetch homepage HTML: {e}")
-        
-    return combined_content
+        print(f"[ERROR] Failed to fetch homepage: {e}")
+    return list(links)
+
+def fetch_post_content(post_url):
+    # মোবাইল ভার্সন নিশ্চিত করার জন্য m=1 যুক্ত করা হচ্ছে
+    if "?m=1" not in post_url and "&m=1" not in post_url:
+        post_url += "?m=1"
+    try:
+        r = requests.get(post_url, headers=HEADERS, timeout=10)
+        if r.status_code == 200:
+            return r.text
+    except Exception as e:
+        print(f"[ERROR] Failed to fetch post content for {post_url}: {e}")
+    return ""
 
 def update_cloudflare_kv(channel_id, token, base_url):
     url = f"https://api.cloudflare.com/client/v4/accounts/{CF_ACCOUNT_ID}/storage/kv/namespaces/{CF_KV_NAMESPACE_ID}/values/{channel_id}"
@@ -67,21 +77,30 @@ def update_cloudflare_kv(channel_id, token, base_url):
 
 if __name__ == "__main__":
     if not CF_ACCOUNT_ID or not CF_KV_NAMESPACE_ID or not CF_API_TOKEN:
-        print("[CRITICAL] Missing Cloudflare credentials in environment variables!")
+        print("[CRITICAL] Missing Cloudflare credentials!")
         exit(1)
         
-    print("Fetching Blogspot content...")
-    raw_blogspot_data = get_blogspot_content()
+    print("Step 1: Finding individual post links on homepage...")
+    posts = get_post_links()
     
-    if not raw_blogspot_data:
-        print("[CRITICAL] Could not fetch any data from Blogspot!")
+    if not posts:
+        print("[CRITICAL] Could not find any post links on the homepage!")
         exit(1)
         
+    # প্রতিটি পোস্ট পেজের কন্টেন্ট রিড করা হচ্ছে
+    print("Step 2: Fetching HTML content of each post page...")
+    combined_posts_html = ""
+    for post in posts:
+        print(f"Opening: {post}")
+        html = fetch_post_content(post)
+        if html:
+            combined_posts_html += "\n" + html
+            
+    print("Step 3: Searching tokens inside the posts content...")
     for channel_id, base_url in CHANNELS.items():
         print(f"Searching token for {channel_id}...")
-        # Regex প্যাটার্ন দিয়ে টোকেন (s=...&e=...) অংশটি আলাদা করা হচ্ছে
         pattern = rf"{channel_id}\.m3u8\?(s=[a-zA-Z0-9_-]+&e=\d+)"
-        match = re.search(pattern, raw_blogspot_data)
+        match = re.search(pattern, combined_posts_html)
         if match:
             fresh_token = match.group(1)
             print(f"[SUCCESS] Found working token for {channel_id}: {fresh_token}")
