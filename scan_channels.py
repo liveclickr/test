@@ -19,17 +19,6 @@ HEADERS = {
     "Cookie": f"mac={MAC_ADDRESS}"
 }
 
-def clean_stream_url(cmd_str):
-    """স্টকার কমান্ড থেকে রিয়েল স্ট্রিমিং লিঙ্ক আলাদা করে"""
-    if not cmd_str:
-        return ""
-    cleaned = cmd_str.strip()
-    if cleaned.startswith("ffrt "):
-        cleaned = cleaned[5:]
-    elif cleaned.startswith("ffmpeg "):
-        cleaned = cleaned[7:]
-    return cleaned
-
 def fetch_data():
     print("[*] Initiating handshake with Stalker Portal...", flush=True)
     session = requests.Session()
@@ -104,7 +93,7 @@ def fetch_data():
                 break
                 
             page += 1
-            time.sleep(0.3)
+            time.sleep(0.1)
         except Exception as e:
             print(f"[!] Failed to fetch page {page}: {e}", flush=True)
             break
@@ -114,58 +103,38 @@ def fetch_data():
         return
 
     raw_channels = raw_channels[:CHANNEL_LIMIT]
-    print(f"[+] Successfully retrieved {len(raw_channels)} channels. Processing stream links...", flush=True)
+    print(f"[+] Successfully retrieved {len(raw_channels)} channels. Structuring play URLs...", flush=True)
 
     processed_channels = []
     
     for index, ch in enumerate(raw_channels):
-        ch_id = ch.get("id")
+        ch_id = str(ch.get("id"))
         name = ch.get("name", "Unknown Channel")
         genre_id = str(ch.get("tv_genre_id", ""))
         category = genres_map.get(genre_id, "Live TV")
         logo = ch.get("logo", "")
-        cmd = ch.get("cmd", "")
 
-        if not cmd:
-            continue
+        # 💡 [IP-Binding এবং টোকেন বাইপাস সলিউশন]:
+        # গিটহাব রানার আইপিতে জেনারেট করা টোকেন অন্য কোথাও চলে না।
+        # তাই আমরা সরাসরি পোর্টালের স্ট্যান্ডার্ড ডিরেক্ট লিঙ্ক জেনারেট করব যা ক্লাউডফ্লেয়ার ওয়ার্কারের মাধ্যমে অন-ডিমান্ড প্লে হবে।
+        final_stream_url = f"{PORTAL_URL}play/live.php?mac={MAC_ADDRESS}&stream={ch_id}&extension=m3u8"
 
-        # ৪. লাইভ প্লে-এবল লিঙ্ক জেনারেশন
-        create_link_url = f"{PORTAL_URL}server/load.php?type=itv&action=create_link&cmd={requests.utils.quote(cmd)}&forced_storage=0&disable_ad=0&JsHttpRequest=1-xml&token={token}"
-        try:
-            link_res = session.get(create_link_url, timeout=10).json()
-            raw_stream_link = link_res.get("js", {}).get("cmd", "")
-            final_stream_url = clean_stream_url(raw_stream_link)
-        except Exception:
-            final_stream_url = ""
+        stalker_headers = {
+            "User-Agent": HEADERS["User-Agent"],
+            "Cookie": HEADERS["Cookie"]
+        }
+        headers_param = requests.utils.quote(json.dumps(stalker_headers))
+        
+        proxied_url = f"{PROXY_WORKER_URL}/hls?headers={headers_param}&url={requests.utils.quote(final_stream_url)}"
 
-        if not final_stream_url:
-            final_stream_url = clean_stream_url(cmd)
-
-        if final_stream_url:
-            # .ts এক্সটেনশনকে .m3u8 এ কনভার্ট করা হচ্ছে
-            if "extension=ts" in final_stream_url:
-                final_stream_url = final_stream_url.replace("extension=ts", "extension=m3u8")
-
-            # 💡 [ক্রিটিক্যাল আপডেট]: স্টকার পোর্টালে stream= যদি খালি থাকে, তবে সেটিতে চ্যানেলের আইডি (ch_id) বসিয়ে দেওয়া হচ্ছে
-            if "stream=&" in final_stream_url:
-                final_stream_url = final_stream_url.replace("stream=&", f"stream={ch_id}&")
-
-            stalker_headers = {
-                "User-Agent": HEADERS["User-Agent"],
-                "Cookie": HEADERS["Cookie"]
-            }
-            headers_param = requests.utils.quote(json.dumps(stalker_headers))
-            
-            proxied_url = f"{PROXY_WORKER_URL}/hls?headers={headers_param}&url={requests.utils.quote(final_stream_url)}"
-
-            processed_channels.append({
-                "id": str(ch_id),
-                "name": name,
-                "url": proxied_url,
-                "category": category,
-                "logo": logo
-            })
-            print(f"[{index+1}/{len(raw_channels)}] Processed: {name}", flush=True)
+        processed_channels.append({
+            "id": ch_id,
+            "name": name,
+            "url": proxied_url,
+            "category": category,
+            "logo": logo
+        })
+        print(f"[{index+1}/{len(raw_channels)}] Formatted: {name}", flush=True)
 
     # ৫. channels.json ফাইলে ডেটা সেভ করা
     output_data = {"channels": processed_channels}
