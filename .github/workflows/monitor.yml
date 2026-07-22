@@ -1,0 +1,33 @@
+name: Auto-Refresh Stalker Channels
+on:
+  schedule:
+    - cron: '0 */2 * * *' # প্রতি ২ ঘণ্টা পর পর স্বয়ংক্রিয়ভাবে রান হবে
+  workflow_dispatch: # ম্যানুয়ালি রান করার জন্য প্লে বাটন এনেবল করবে
+
+jobs:
+  run-updater:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          pip install requests
+
+      - name: Scrape Portal & Update JSON
+        run: |
+          python scan_channels.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add channels.json
+          git commit -m "Auto-update live sports channels" || exit 0
+          git push
