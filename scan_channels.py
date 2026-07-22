@@ -6,8 +6,9 @@ import time
 # ---------------- CONFIGURATION ----------------
 PORTAL_URL = "http://innovationdns.eu:80/c/"
 MAC_ADDRESS = "00:1A:79:11:C4:7A"
+# আপনার দেওয়া ক্লাউডফ্লেয়ার প্রক্সি URL
 PROXY_WORKER_URL = "https://workerreverseproxy.mafejur8990.workers.dev" 
-# আপনি সর্বোচ্চ কতটি সচল চ্যানেল লোড করতে চান (এটি কম রাখলে স্ক্যান অনেক দ্রুত হবে)
+# আপনি সর্বোচ্চ কতটি সচল চ্যানেল লোড করতে চান
 CHANNEL_LIMIT = 150 
 # -----------------------------------------------
 
@@ -67,7 +68,6 @@ def fetch_data():
     total_items = 9999  
     
     while len(raw_channels) < total_items:
-        # লিমিট স্পর্শ করলে পেজ লোডিং লুপ এখানেই বন্ধ হবে (৫ মিনিট সময় বাঁচবে)
         if len(raw_channels) >= CHANNEL_LIMIT:
             print(f"[*] Reached target limit of {CHANNEL_LIMIT} channels. Stopping page fetch.", flush=True)
             break
@@ -113,7 +113,6 @@ def fetch_data():
         print("[!] Channel list is empty.", flush=True)
         return
 
-    # আমাদের নির্ধারিত সীমার অতিরিক্ত চ্যানেলগুলো বাদ দেওয়া হচ্ছে
     raw_channels = raw_channels[:CHANNEL_LIMIT]
     print(f"[+] Successfully retrieved {len(raw_channels)} channels. Processing stream links...", flush=True)
 
@@ -143,6 +142,10 @@ def fetch_data():
             final_stream_url = clean_stream_url(cmd)
 
         if final_stream_url:
+            # 💡 [ক্রিটিক্যাল আপডেট]: .ts এক্সটেনশনকে .m3u8 এ কনভার্ট করা হচ্ছে ব্রাউজারে প্লে করার জন্য
+            if "extension=ts" in final_stream_url:
+                final_stream_url = final_stream_url.replace("extension=ts", "extension=m3u8")
+
             stalker_headers = {
                 "User-Agent": HEADERS["User-Agent"],
                 "Cookie": HEADERS["Cookie"]
