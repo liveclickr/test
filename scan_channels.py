@@ -1,6 +1,7 @@
 import os
 import json
 import requests
+import time
 
 # ---------------- CONFIGURATION ----------------
 PORTAL_URL = "http://innovationdns.eu:80/c/"
@@ -28,27 +29,28 @@ def clean_stream_url(cmd_str):
     return cleaned
 
 def fetch_data():
-    print("[*] Initiating handshake with Stalker Portal...")
+    # flush=True ব্যবহারের কারণে গিটহাবে লগ সাথে সাথে প্রিন্ট হবে
+    print("[*] Initiating handshake with Stalker Portal...", flush=True)
     session = requests.Session()
     session.headers.update(HEADERS)
     
     # ১. হ্যান্ডশেক এবং টোকেন রিকোয়েস্ট
-    handshake_url = f"{PORTAL_URL}server/load.php?type=stb&action=handshake"
+    handshake_url = f"{PORTAL_URL}server/load.php?type=stb&action=handshake&JsHttpRequest=1-xml"
     try:
         response = session.get(handshake_url, timeout=15)
         response_data = response.json()
         token = response_data.get("js", {}).get("token")
     except Exception as e:
-        print(f"[!] Handshake failed: {e}")
+        print(f"[!] Handshake failed: {e}", flush=True)
         return
 
     if not token:
-        print("[!] Authorization Token could not be retrieved.")
+        print("[!] Authorization Token could not be retrieved.", flush=True)
         return
-    print(f"[+] Token generated successfully: {token[:8]}...")
+    print(f"[+] Token generated successfully: {token[:8]}...", flush=True)
 
     # ২. ক্যাটাগরি (Genres) ম্যাপ করা
-    genres_url = f"{PORTAL_URL}server/load.php?type=itv&action=get_genres&token={token}"
+    genres_url = f"{PORTAL_URL}server/load.php?type=itv&action=get_genres&JsHttpRequest=1-xml&token={token}"
     genres_map = {}
     try:
         g_res = session.get(genres_url, timeout=15).json()
@@ -58,18 +60,19 @@ def fetch_data():
         pass
 
     # ৩. পেজিনেশন (Pagination) লুপের মাধ্যমে সব চ্যানেল সংগ্রহ করা
-    print("[*] Fetching channel list across all pages...")
+    print("[*] Fetching channel list across all pages...", flush=True)
     raw_channels = []
+    seen_channel_ids = set()
     page = 1
-    total_items = 9999  # লুপে প্রবেশ করার জন্য ডামি সংখ্যা
+    total_items = 9999  
     
     while len(raw_channels) < total_items:
-        channels_url = f"{PORTAL_URL}server/load.php?type=itv&action=get_ordered_list&p={page}&token={token}"
+        # standard stalker api requirements: p parameter and JsHttpRequest
+        channels_url = f"{PORTAL_URL}server/load.php?type=itv&action=get_ordered_list&p={page}&JsHttpRequest=1-xml&token={token}"
         try:
             ch_res = session.get(channels_url, timeout=15).json()
             js_data = ch_res.get("js", {})
             
-            # পোর্টাল যদি পেজিনেশন ফরম্যাটে ডিকশনারি ডাটা পাঠায়
             if isinstance(js_data, dict):
                 page_data = js_data.get("data", [])
                 total_items = int(js_data.get("total_items", 0))
@@ -77,14 +80,21 @@ def fetch_data():
                 
                 if not page_data:
                     break
-                    
-                raw_channels.extend(page_data)
-                print(f"[+] Page {page}: Loaded {len(page_data)} channels (Total: {len(raw_channels)}/{total_items})")
                 
-                # যদি ডাটা শেষ হয়ে যায় বা এই পেজের সাইজ সর্বোচ্চ লিমিটের চেয়ে কম হয়
-                if len(page_data) < max_page_items or total_items == 0:
+                # ডুপ্লিকেট চেকার: যদি এই পেজের সব চ্যানেল আগেই লোড হয়ে থাকে, তবে লুপ ভেঙে দেবে
+                new_added = 0
+                for ch in page_data:
+                    ch_id = str(ch.get("id"))
+                    if ch_id not in seen_channel_ids:
+                        seen_channel_ids.add(ch_id)
+                        raw_channels.append(ch)
+                        new_added += 1
+                
+                print(f"[+] Page {page}: Processed {len(page_data)} channels (New added: {new_added}, Total: {len(raw_channels)}/{total_items})", flush=True)
+                
+                # যদি নতুন কোনো চ্যানেল এড না হয় বা পেজে সর্বোচ্চ আইটেমের চেয়ে কম ডাটা থাকে
+                if new_added == 0 or len(page_data) < max_page_items or total_items == 0:
                     break
-            # যদি সরাসরি সম্পূর্ণ তালিকা (Array) রিটার্ন করে
             elif isinstance(js_data, list):
                 raw_channels = js_data
                 break
@@ -92,20 +102,21 @@ def fetch_data():
                 break
                 
             page += 1
+            time.sleep(0.5) # পোর্টাল ওভারলোড এড়ানোর জন্য সামান্য বিরতি
         except Exception as e:
-            print(f"[!] Failed to fetch page {page}: {e}")
+            print(f"[!] Failed to fetch page {page}: {e}", flush=True)
             break
 
     if not raw_channels:
-        print("[!] Channel list is empty.")
+        print("[!] Channel list is empty.", flush=True)
         return
 
-    print(f"[+] Successfully retrieved {len(raw_channels)} channels from portal. Processing stream links...")
+    print(f"[+] Successfully retrieved {len(raw_channels)} channels from portal. Processing stream links...", flush=True)
 
     processed_channels = []
     
-    # স্ক্র্যাপ করার সর্বোচ্চ চ্যানেল সংখ্যা (প্রয়োজনে এটি আরও বাড়াতে বা কমাতে পারেন)
-    limit = 250 
+    # স্ক্র্যাপ করার সর্বোচ্চ চ্যানেল সংখ্যা (পোর্টাল ব্যান এড়াতে প্রথম ১৫০টি রাখা হয়েছে, চাইলে বাড়াতে পারেন)
+    limit = 150 
     for index, ch in enumerate(raw_channels[:limit]):
         ch_id = ch.get("id")
         name = ch.get("name", "Unknown Channel")
@@ -118,7 +129,7 @@ def fetch_data():
             continue
 
         # ৪. লাইভ প্লে-এবল লিঙ্ক জেনারেশন
-        create_link_url = f"{PORTAL_URL}server/load.php?type=itv&action=create_link&cmd={requests.utils.quote(cmd)}&forced_storage=0&disable_ad=0&token={token}"
+        create_link_url = f"{PORTAL_URL}server/load.php?type=itv&action=create_link&cmd={requests.utils.quote(cmd)}&forced_storage=0&disable_ad=0&JsHttpRequest=1-xml&token={token}"
         try:
             link_res = session.get(create_link_url, timeout=10).json()
             raw_stream_link = link_res.get("js", {}).get("cmd", "")
@@ -145,13 +156,13 @@ def fetch_data():
                 "category": category,
                 "logo": logo
             })
-            print(f"[{index+1}/{min(len(raw_channels), limit)}] Processed: {name}")
+            print(f"[{index+1}/{min(len(raw_channels), limit)}] Processed: {name}", flush=True)
 
     # ৫. channels.json ফাইলে ডেটা সেভ করা
     output_data = {"channels": processed_channels}
     with open("channels.json", "w", encoding="utf-8") as f:
         json.dump(output_data, f, indent=2, ensure_ascii=False)
-    print(f"[+] Database successfully updated with {len(processed_channels)} channels.")
+    print(f"[+] Database successfully updated with {len(processed_channels)} channels.", flush=True)
 
 if __name__ == "__main__":
     fetch_data()
