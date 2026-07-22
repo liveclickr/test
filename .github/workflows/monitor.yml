@@ -1,8 +1,11 @@
 name: Auto-Refresh Stalker Channels
 on:
   schedule:
-    - cron: '0 */2 * * *' # প্রতি ২ ঘণ্টা পর পর স্বয়ংক্রিয়ভাবে রান হবে
-  workflow_dispatch: # ম্যানুয়ালি রান করার জন্য প্লে বাটন এনেবল করবে
+    - cron: '0 */2 * * *' # প্রতি ২ ঘণ্টা পর পর রান হবে
+  workflow_dispatch: # ম্যানুয়ালি রান করার জন্য
+
+permissions:
+  contents: write # এই লাইনটি গিটহাবে ফাইল পুশ করার পারমিশন দেবে
 
 jobs:
   run-updater:
