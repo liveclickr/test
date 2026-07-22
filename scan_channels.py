@@ -9,7 +9,7 @@ MAC_ADDRESS = "00:1A:79:11:C4:7A"
 # আপনার দেওয়া ক্লাউডফ্লেয়ার প্রক্সি URL
 PROXY_WORKER_URL = "https://workerreverseproxy.mafejur8990.workers.dev" 
 # আপনি সর্বোচ্চ কতটি সচল চ্যানেল লোড করতে চান
-CHANNEL_LIMIT = 150 
+CHANNEL_LIMIT = 199
 # -----------------------------------------------
 
 HEADERS = {
