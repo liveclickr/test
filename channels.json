@@ -3,1395 +3,1652 @@
     {
       "id": "978715",
       "name": "EN| CHRISTMAS 1 4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D978715%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=978715&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "Live TV",
       "logo": "http://103.176.90.95/images/978715.png"
     },
     {
       "id": "978714",
       "name": "EN| CHRISTMAS 2 4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D978714%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=978714&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "Live TV",
       "logo": "http://103.176.90.95/images/978714.png"
     },
     {
       "id": "978713",
       "name": "EN| CHRISTMAS 3 4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D978713%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=978713&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "Live TV",
       "logo": "http://103.176.90.95/images/978713.png"
     },
     {
       "id": "978712",
       "name": "EN| CHRISTMAS 4 4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D978712%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=978712&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "Live TV",
       "logo": "http://103.176.90.95/images/978712.png"
     },
     {
       "id": "978710",
       "name": "EN| CHRISTMAS 5 4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D978710%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=978710&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "Live TV",
       "logo": "http://103.176.90.95/images/978710.png"
     },
     {
       "id": "978709",
       "name": "EN| CHRISTMAS 6 4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D978709%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=978709&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "Live TV",
       "logo": "http://103.176.90.95/images/978709.png"
     },
     {
       "id": "978708",
       "name": "EN| CHRISTMAS 7 4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D978708%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=978708&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "Live TV",
       "logo": "http://103.176.90.95/images/978708.png"
     },
     {
       "id": "978707",
       "name": "EN| CHRISTMAS 8 4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D978707%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=978707&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "Live TV",
       "logo": "http://103.176.90.95/images/978707.png"
     },
     {
       "id": "978706",
       "name": "EN| CHRISTMAS 9 4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D978706%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=978706&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "Live TV",
       "logo": "http://103.176.90.95/images/978706.png"
     },
     {
       "id": "978705",
       "name": "EN| CHRISTMAS 10 4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D978705%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=978705&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "Live TV",
       "logo": "http://103.176.90.95/images/978705.png"
     },
     {
       "id": "1369601",
       "name": "EN| CHRISTMAS CARTOONS",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1369601%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1369601&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "Live TV",
       "logo": "http://103.176.90.95/images/1369601.png"
     },
     {
       "id": "1369600",
       "name": "EN| CHRISTMAS COOKIE CHALLENGE",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1369600%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1369600&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "Live TV",
       "logo": "http://103.176.90.95/images/1369600.png"
     },
     {
       "id": "1369598",
       "name": "EN| CHRISTMAS GREAT LIGHT FIGHT",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1369598%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1369598&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "Live TV",
       "logo": "http://103.176.90.95/images/1369598.png"
     },
     {
       "id": "1369597",
       "name": "EN| CHRISTMAS HOLIDAY WARS",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1369597%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1369597&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "Live TV",
       "logo": "http://103.176.90.95/images/1369597.png"
     },
     {
       "id": "1369596",
       "name": "EN| CHRISTMAS HOLIDAY YULE LOG",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1369596%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1369596&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "Live TV",
       "logo": "http://103.176.90.95/images/1369596.png"
     },
     {
       "id": "1369599",
       "name": "EN| CHRISTMAS MOVIES",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1369599%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1369599&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "Live TV",
       "logo": "http://103.176.90.95/images/1369599.png"
     },
     {
       "id": "1066682",
       "name": "EN| CHRISTMAS MOVIES 1 FHD",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1066682%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1066682&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "Live TV",
       "logo": "http://103.176.90.95/images/1066682.png"
     },
     {
       "id": "1066681",
       "name": "EN| CHRISTMAS MOVIES 2 FHD",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1066681%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1066681&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "Live TV",
       "logo": "http://103.176.90.95/images/1066681.png"
     },
     {
       "id": "1066680",
       "name": "EN| CHRISTMAS MOVIES 3 FHD",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1066680%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1066680&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "Live TV",
       "logo": "http://103.176.90.95/images/1066680.png"
     },
     {
       "id": "1066679",
       "name": "EN| CHRISTMAS MOVIES 4 FHD",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1066679%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1066679&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "Live TV",
       "logo": "http://103.176.90.95/images/1066679.png"
     },
     {
       "id": "1066678",
       "name": "EN| CHRISTMAS MOVIES 5 FHD",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1066678%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1066678&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "Live TV",
       "logo": "http://103.176.90.95/images/1066678.png"
     },
     {
       "id": "1066677",
       "name": "EN| CHRISTMAS MOVIES 6 FHD",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1066677%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1066677&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "Live TV",
       "logo": "http://103.176.90.95/images/1066677.png"
     },
     {
       "id": "1369595",
       "name": "EN| CHRISTMAS NAILED IT! HOLIDAY",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1369595%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1369595&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "Live TV",
       "logo": "http://103.176.90.95/images/1369595.png"
     },
     {
       "id": "1369603",
       "name": "EN| CHRISTMAS THE CAROLER CHALLENGE",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1369603%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1369603&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "Live TV",
       "logo": "http://103.176.90.95/images/1369603.png"
     },
     {
       "id": "1369604",
       "name": "EN| CHRISTMAS VEVO BEST HITS",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1369604%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1369604&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "Live TV",
       "logo": "http://103.176.90.95/images/1369604.png"
     },
     {
       "id": "1729383",
       "name": "EN| FUBO XMAS MOVIES",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1729383%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1729383&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "Live TV",
       "logo": "http://103.176.90.95/images/1729383.png"
     },
     {
       "id": "1369602",
       "name": "EN| SUGAR RUSH",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1369602%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1369602&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "Live TV",
       "logo": "http://103.176.90.95/images/1369602.png"
     },
     {
       "id": "1729368",
       "name": "EN| XMAS CARTOONS",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1729368%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1729368&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "Live TV",
       "logo": "http://103.176.90.95/images/1729368.png"
     },
     {
       "id": "1729381",
       "name": "EN| XMAS CHRISTMAS PLUS",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1729381%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1729381&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "Live TV",
       "logo": "http://103.176.90.95/images/1729381.png"
     },
     {
       "id": "1729369",
       "name": "EN| XMAS COOKIE CHALLENGE",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1729369%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1729369&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "Live TV",
       "logo": "http://103.176.90.95/images/1729369.png"
     },
     {
       "id": "1729371",
       "name": "EN| XMAS GREAT LIGHT FIGHT",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1729371%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1729371&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "Live TV",
       "logo": "http://103.176.90.95/images/1729371.png"
     },
     {
       "id": "1729372",
       "name": "EN| XMAS HOLIDAY WARS",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1729372%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1729372&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "Live TV",
       "logo": "http://103.176.90.95/images/1729372.png"
     },
     {
       "id": "1729373",
       "name": "EN| XMAS HOLIDAY YULE LOG",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1729373%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1729373&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "Live TV",
       "logo": "http://103.176.90.95/images/1729373.png"
     },
     {
       "id": "1729370",
       "name": "EN| XMAS MOVIES",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1729370%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1729370&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "Live TV",
       "logo": "http://103.176.90.95/images/1729370.png"
     },
     {
       "id": "1729374",
       "name": "EN| XMAS NAILED IT! HOLIDAY",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1729374%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1729374&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "Live TV",
       "logo": "http://103.176.90.95/images/1729374.png"
     },
     {
       "id": "1729375",
       "name": "EN| XMAS SUGAR RUSH",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1729375%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1729375&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "Live TV",
       "logo": "http://103.176.90.95/images/1729375.png"
     },
     {
       "id": "1729376",
       "name": "EN| XMAS THE CAROLER CHALLENGE",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1729376%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1729376&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "Live TV",
       "logo": "http://103.176.90.95/images/1729376.png"
     },
     {
       "id": "1729377",
       "name": "EN| XMAS VEVO BEST HITS",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1729377%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1729377&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "Live TV",
       "logo": "http://103.176.90.95/images/1729377.png"
     },
     {
       "id": "1729378",
       "name": "EN| XMAS VEVO HIP HOP",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1729378%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1729378&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "Live TV",
       "logo": "http://103.176.90.95/images/1729378.png"
     },
     {
       "id": "1729379",
       "name": "EN| XMAS VEVO MUSIC",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1729379%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1729379&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "Live TV",
       "logo": "http://103.176.90.95/images/1729379.png"
     },
     {
       "id": "1608071",
       "name": "4K| SKY SPORTS MAIN EVENTS UHD",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1608071%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1608071&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1471387",
       "name": "4K| SKY SPORTS UHD [EVENT]",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1471387%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1471387&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1608068",
       "name": "4K| SKY SPORTS 1 UHD",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1608068%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1608068&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1608069",
       "name": "4K| SKY SPORTS 2 UHD",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1608069%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1608069&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1761500",
       "name": "4K| SKY SPORTS F1 UHD",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1761500%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1761500&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1471382",
       "name": "4K| SKY SPORTS DARTS UHD",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1471382%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1471382&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1595637",
       "name": "4K| TNT ULTIMATE 4K+ [LIVE-EVENT]",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1595637%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1595637&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1479591",
       "name": "4K| TNT SPORTS UHD [EVENT]",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1479591%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1479591&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1479590",
       "name": "4K| ULTRA CINEMA UHD/4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1479590%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1479590&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1470603",
       "name": "4K| SPORTSNET 360 UHD",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1470603%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1470603&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1481941",
       "name": "4K| ESPN UHD",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1481941%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1481941&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1470618",
       "name": "4K| ELEVEN SPORTS 1 UHD",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1470618%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1470618&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1481950",
       "name": "4K| ZIGGO SPORT UHD",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1481950%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1481950&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1471378",
       "name": "4K| OUR SIBERIA UHD/4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1471378%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1471378&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1632123",
       "name": "4K| V SPORT+ UHD",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1632123%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1632123&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1470620",
       "name": "4K| KINO UHD/4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1470620%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1470620&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1749221",
       "name": "4k| V SPORT UHD/4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1749221%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1749221&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1749220",
       "name": "4k| YES SPORT 5 UHD/4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1749220%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1749220&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1749219",
       "name": "4k| QUADRO UHD/4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1749219%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1749219&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1632122",
       "name": "4K| DIGI UHD",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1632122%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1632122&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1640379",
       "name": "4k| TF1 HDR/UHD/4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1640379%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1640379&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1124351",
       "name": "4k| NESN UHD/4K+",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1124351%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1124351&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1640385",
       "name": "4k| IRIB HDR/UHD/4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1640385%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1640385&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1948662",
       "name": "4K| ELEVEN PL UHD/4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1948662%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1948662&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1948661",
       "name": "4K| ELEVEN SPORTS PL UHD/4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1948661%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1948661&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1948660",
       "name": "4K| ELEVEN SPORTS 1 UHD/4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1948660%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1948660&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1948659",
       "name": "4K| LA 1 UHD/4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1948659%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1948659&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1948658",
       "name": "4K| MOVISTAR  LALIGA 2 UHD/4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1948658%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1948658&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1948656",
       "name": "4K| TRAVEL XP CA UHD/4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1948656%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1948656&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1948655",
       "name": "4K| NOW SPORTS UHD/4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1948655%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1948655&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1948654",
       "name": "4K| TSN WEST CA UHD/4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1948654%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1948654&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1948653",
       "name": "4K| STINGRAY NOW CA UHD/4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1948653%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1948653&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1948652",
       "name": "4K| STINGRAY FESTIVAL CA UHD/4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1948652%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1948652&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1948651",
       "name": "4K| STINGRAY AMBIANCE CA UHD/4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1948651%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1948651&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1948650",
       "name": "4K| SPORTSNET ONE CA UHD/4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1948650%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1948650&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1948649",
       "name": "4K| SPORTSNET CA UHD/4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1948649%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1948649&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1948648",
       "name": "4K| REVELTV CA UHD/4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1948648%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1948648&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1948647",
       "name": "4K| INULTRA CA UHD/4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1948647%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1948647&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1948646",
       "name": "4K| TSN SENATORS CA UHD/4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1948646%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1948646&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1948645",
       "name": "4K| TSN LEAFS CA UHD/4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1948645%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1948645&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1948644",
       "name": "4K| SPORTSNET ONE CA UHD/4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1948644%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1948644&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1948643",
       "name": "4K| ULTRA REX RU UHD/4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1948643%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1948643&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1948642",
       "name": "4K| ULTRA CINEMA RU UHD/4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1948642%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1948642&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1948641",
       "name": "4K| QUADRO RU UHD/4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1948641%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1948641&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1948640",
       "name": "4K| ODISEA ES UHD/4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1948640%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1948640&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1948639",
       "name": "4K| DECASA UHD/4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1948639%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1948639&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1948638",
       "name": "4K| OUR SIBERIA RU UHD/4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1948638%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1948638&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1948637",
       "name": "4K| KINO RU UHD/4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1948637%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1948637&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1948636",
       "name": "4K| NOW SPORTS HK UHD/4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1948636%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1948636&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1948634",
       "name": "4K| MUSEUM MULTI UHD/4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1948634%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1948634&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1948633",
       "name": "4K| MUSEUM UHD/4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1948633%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1948633&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1948631",
       "name": "4K| FRANCE 2 FR UHD/4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1948631%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1948631&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1948630",
       "name": "4K| SLOW ES UHD/4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1948630%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1948630&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1948629",
       "name": "4K| DECASA ES UHD/4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1948629%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1948629&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1948627",
       "name": "4K| BEIN UHD/4K NM",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1948627%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1948627&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1948624",
       "name": "4K| NOW SPORTS PREMIER LEAGUE UHD/4K NM",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1948624%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1948624&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1948619",
       "name": "4K| M+ LALIGA TV UHD/4K NM",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1948619%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1948619&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1948617",
       "name": "4K| RAI 1 UHD/4K NM",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1948617%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1948617&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1774383",
       "name": "4K| THROUGH THE EYES OF A TOURIST UHD/4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1774383%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1774383&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1753227",
       "name": "4K| SKY SPORT 4K [LIVE-EVENT]",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1753227%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1753227&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1640388",
       "name": "4k| ULTRA REX UHD/4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1640388%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1640388&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1471386",
       "name": "4K| LOVE NATURE UHD",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1471386%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1471386&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1632124",
       "name": "4K| MUSEUM UHD",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1632124%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1632124&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1470604",
       "name": "4K| BLOOMBERG UHD",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1470604%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1470604&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1470653",
       "name": "4K| CNN UHD 4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1470653%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1470653&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1471385",
       "name": "4K| COCINA UHD",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1471385%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1471385&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1471384",
       "name": "4K| DECASA UHD",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1471384%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1471384&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1620282",
       "name": "4K| LA 1 UHD",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1620282%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1620282&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1491209",
       "name": "4K| BLOOMBERG+ UHD/4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1491209%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1491209&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1491207",
       "name": "4K| QVC UHD",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1491207%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1491207&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1471383",
       "name": "4K| ODISEA UHD",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1471383%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1471383&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1491180",
       "name": "4K| SKY PRIMAFILA 1 UHD",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1491180%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1491180&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1491181",
       "name": "4K| SKY PRIMAFILA 2 UHD",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1491181%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1491181&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1491183",
       "name": "4K| SKY PRIMAFILA 3 UHD",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1491183%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1491183&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1491184",
       "name": "4K| SKY PRIMAFILA 4 UHD",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1491184%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1491184&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1491185",
       "name": "4K| SKY PRIMAFILA 5 UHD",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1491185%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1491185&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1491186",
       "name": "4K| SKY PRIMAFILA 6 UHD",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1491186%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1491186&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1491187",
       "name": "4K| SKY PRIMAFILA 7 UHD",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1491187%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1491187&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1491188",
       "name": "4K| SKY PRIMAFILA 8 UHD",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1491188%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1491188&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1491189",
       "name": "4K| SKY PRIMAFILA 9 UHD",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1491189%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1491189&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K.png"
     },
     {
       "id": "1505577",
       "name": "###### RELAX ᵁᴴᴰ 3840P ######",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1505577%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1505577&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K RELAX UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
     },
     {
       "id": "1503006",
       "name": "4K| RELAX MOROCCO ᵁᴴᴰ 3840P",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1503006%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1503006&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K RELAX UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
     },
     {
       "id": "1502984",
       "name": "4K| RELAX TURKEY ᵁᴴᴰ 3840P",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1502984%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1502984&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K RELAX UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
     },
     {
       "id": "1503008",
       "name": "4K| RELAX NORWAY ᵁᴴᴰ 3840P",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1503008%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1503008&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K RELAX UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
     },
     {
       "id": "1503007",
       "name": "4K| RELAX ICELAND ᵁᴴᴰ 3840P",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1503007%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1503007&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K RELAX UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
     },
     {
       "id": "1502990",
       "name": "4K| RELAX TROPICAL BEACH ᵁᴴᴰ 3840P",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1502990%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1502990&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K RELAX UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
     },
     {
       "id": "1502989",
       "name": "4K| RELAX THE OCEAN ᵁᴴᴰ 3840P",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1502989%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1502989&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K RELAX UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
     },
     {
       "id": "1502988",
       "name": "4K| RELAX INSPIRATIONAL MOTIVATIONAL ᵁᴴᴰ 3840P",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1502988%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1502988&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K RELAX UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
     },
     {
       "id": "1502987",
       "name": "4K| RELAX FOREST ᵁᴴᴰ 3840P",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1502987%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1502987&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K RELAX UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
     },
     {
       "id": "1502986",
       "name": "4K| RELAX EARTH NATURE ᵁᴴᴰ 3840P",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1502986%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1502986&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K RELAX UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
     },
     {
       "id": "1502985",
       "name": "4K| RELAX AUSTRALIA ᵁᴴᴰ 3840P",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1502985%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1502985&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K RELAX UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
     },
     {
       "id": "1502991",
       "name": "4K| RELAX 1 ᵁᴴᴰ 3840P",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1502991%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1502991&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K RELAX UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
     },
     {
       "id": "1502992",
       "name": "4K| RELAX 2 ᵁᴴᴰ 3840P",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1502992%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1502992&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K RELAX UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
     },
     {
       "id": "1502993",
       "name": "4K| RELAX 3 ᵁᴴᴰ 3840P",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1502993%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1502993&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K RELAX UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
     },
     {
       "id": "1502994",
       "name": "4K| RELAX 4 ᵁᴴᴰ 3840P",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1502994%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1502994&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K RELAX UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
     },
     {
       "id": "1502995",
       "name": "4K| RELAX 5 ᵁᴴᴰ 3840P",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1502995%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1502995&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K RELAX UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
     },
     {
       "id": "1502996",
       "name": "4K| RELAX 6 ᵁᴴᴰ 3840P",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1502996%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1502996&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K RELAX UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
     },
     {
       "id": "1502997",
       "name": "4K| RELAX 7 ᵁᴴᴰ 3840P",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1502997%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1502997&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K RELAX UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
     },
     {
       "id": "1502998",
       "name": "4K| RELAX 8 ᵁᴴᴰ 3840P",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1502998%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1502998&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K RELAX UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
     },
     {
       "id": "1502999",
       "name": "4K| RELAX 9 ᵁᴴᴰ 3840P",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1502999%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1502999&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K RELAX UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
     },
     {
       "id": "1503000",
       "name": "4K| RELAX 10 ᵁᴴᴰ 3840P",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1503000%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1503000&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K RELAX UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
     },
     {
       "id": "1503001",
       "name": "4K| RELAX 11 ᵁᴴᴰ 3840P",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1503001%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1503001&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K RELAX UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
     },
     {
       "id": "1503002",
       "name": "4K| RELAX 12 ᵁᴴᴰ 3840P",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1503002%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1503002&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K RELAX UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
     },
     {
       "id": "1503003",
       "name": "4K| RELAX 13 ᵁᴴᴰ 3840P",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1503003%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1503003&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K RELAX UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
     },
     {
       "id": "1503004",
       "name": "4K| RELAX 14 ᵁᴴᴰ 3840P",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1503004%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1503004&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K RELAX UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
     },
     {
       "id": "1503005",
       "name": "4K| RELAX 15 ᵁᴴᴰ 3840P",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1503005%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1503005&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K RELAX UHD 3840P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
     },
     {
       "id": "1505556",
       "name": "###### RELAX 4K ######",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1505556%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1505556&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K RELAX 1920P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
     },
     {
       "id": "1505563",
       "name": "4K| RELAX TURKEY 4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1505563%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1505563&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K RELAX 1920P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
     },
     {
       "id": "1505558",
       "name": "4K| RELAX ICELAND 4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1505558%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1505558&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K RELAX 1920P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
     },
     {
       "id": "1505557",
       "name": "4K| RELAX MOROCCO 4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1505557%26extension%3Dm3u8",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1505557&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
       "category": "4K RELAX 1920P",
       "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
-    },
-    {
-      "id": "1505576",
-      "name": "4K| RELAX TROPICAL BEACH 4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1505576%26extension%3Dm3u8",
-      "category": "4K RELAX 1920P",
-      "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
-    },
-    {
-      "id": "1505575",
-      "name": "4K| RELAX THE OCEAN 4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1505575%26extension%3Dm3u8",
-      "category": "4K RELAX 1920P",
-      "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
-    },
-    {
-      "id": "1505574",
-      "name": "4K| RELAX STARDUST 4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1505574%26extension%3Dm3u8",
-      "category": "4K RELAX 1920P",
-      "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
-    },
-    {
-      "id": "1505573",
-      "name": "4K| RELAX SNOW WINTER 4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1505573%26extension%3Dm3u8",
-      "category": "4K RELAX 1920P",
-      "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
-    },
-    {
-      "id": "1505572",
-      "name": "4K| RELAX FOREST 4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1505572%26extension%3Dm3u8",
-      "category": "4K RELAX 1920P",
-      "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
-    },
-    {
-      "id": "1505571",
-      "name": "4K| RELAX FLOWER 4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1505571%26extension%3Dm3u8",
-      "category": "4K RELAX 1920P",
-      "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
-    },
-    {
-      "id": "1505570",
-      "name": "4K| RELAX EARTH NATURE 4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1505570%26extension%3Dm3u8",
-      "category": "4K RELAX 1920P",
-      "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
-    },
-    {
-      "id": "1505569",
-      "name": "4K| RELAX NATURE RELAXATION 4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1505569%26extension%3Dm3u8",
-      "category": "4K RELAX 1920P",
-      "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
-    },
-    {
-      "id": "1505568",
-      "name": "4K| RELAX MORNING RELAXING 4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1505568%26extension%3Dm3u8",
-      "category": "4K RELAX 1920P",
-      "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
-    },
-    {
-      "id": "1505567",
-      "name": "4K| RELAX INSPIRATIONAL MOTIVATIONAL 4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1505567%26extension%3Dm3u8",
-      "category": "4K RELAX 1920P",
-      "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
-    },
-    {
-      "id": "1505566",
-      "name": "4K| RELAX EUROPE TOWNS 4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1505566%26extension%3Dm3u8",
-      "category": "4K RELAX 1920P",
-      "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
-    },
-    {
-      "id": "1505565",
-      "name": "4K| RELAX FOREST AMERICAN 4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1505565%26extension%3Dm3u8",
-      "category": "4K RELAX 1920P",
-      "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
-    },
-    {
-      "id": "1505564",
-      "name": "4K| RELAX VIETNAM 4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1505564%26extension%3Dm3u8",
-      "category": "4K RELAX 1920P",
-      "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
-    },
-    {
-      "id": "1505562",
-      "name": "4K| RELAX SWITZERLAND 4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1505562%26extension%3Dm3u8",
-      "category": "4K RELAX 1920P",
-      "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
-    },
-    {
-      "id": "1505561",
-      "name": "4K| RELAX ITALY 4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1505561%26extension%3Dm3u8",
-      "category": "4K RELAX 1920P",
-      "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
-    },
-    {
-      "id": "1505560",
-      "name": "4K| RELAX AUSTRALIA 4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1505560%26extension%3Dm3u8",
-      "category": "4K RELAX 1920P",
-      "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
-    },
-    {
-      "id": "1505559",
-      "name": "4K| RELAX NORWAY 4K",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D1505559%26extension%3Dm3u8",
-      "category": "4K RELAX 1920P",
-      "logo": "http://51.158.145.100/picons/logos/LOGOSNEW/4K-RELAX.png"
-    },
-    {
-      "id": "2116347",
-      "name": "CDM| 3EME PLACE - FRANCE Vs ANGLETERRE",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D2116347%26extension%3Dm3u8",
-      "category": "FR| CDM 2026 REPLAY",
-      "logo": "http://51.158.145.100/picons/logos/logos/WORLDCUP2026REPLAY.png"
-    },
-    {
-      "id": "2115861",
-      "name": "CDM| DEMI - ARGENTINE Vs ANGLETERRE",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D2115861%26extension%3Dm3u8",
-      "category": "FR| CDM 2026 REPLAY",
-      "logo": "http://51.158.145.100/picons/logos/logos/WORLDCUP2026REPLAY.png"
-    },
-    {
-      "id": "2114335",
-      "name": "CDM| DEMI - ESPAGNE Vs FRANCE",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D2114335%26extension%3Dm3u8",
-      "category": "FR| CDM 2026 REPLAY",
-      "logo": "http://51.158.145.100/picons/logos/logos/WORLDCUP2026REPLAY.png"
-    },
-    {
-      "id": "2114082",
-      "name": "CDM| QUART MATCHE - NORVEGE Vs ANGLETERRE",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D2114082%26extension%3Dm3u8",
-      "category": "FR| CDM 2026 REPLAY",
-      "logo": "http://51.158.145.100/picons/logos/logos/WORLDCUP2026REPLAY.png"
-    },
-    {
-      "id": "2114081",
-      "name": "CDM| QUART MATCHE - ARGENTINE Vs SUISSE",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D2114081%26extension%3Dm3u8",
-      "category": "FR| CDM 2026 REPLAY",
-      "logo": "http://51.158.145.100/picons/logos/logos/WORLDCUP2026REPLAY.png"
-    },
-    {
-      "id": "2113456",
-      "name": "CDM| QUART MATCHE - ESPAGNE Vs BELGIQUE",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D2113456%26extension%3Dm3u8",
-      "category": "FR| CDM 2026 REPLAY",
-      "logo": "http://51.158.145.100/picons/logos/logos/WORLDCUP2026REPLAY.png"
-    },
-    {
-      "id": "2113155",
-      "name": "CDM| FRANCE Vs MAROC [PH-16]",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D2113155%26extension%3Dm3u8",
-      "category": "FR| CDM 2026 REPLAY",
-      "logo": "http://51.158.145.100/picons/logos/logos/WORLDCUP2026REPLAY.png"
-    },
-    {
-      "id": "2113154",
-      "name": "CDM| PORTUGAL Vs ESPAGNE [PH-32]",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D2113154%26extension%3Dm3u8",
-      "category": "FR| CDM 2026 REPLAY",
-      "logo": "http://51.158.145.100/picons/logos/logos/WORLDCUP2026REPLAY.png"
-    },
-    {
-      "id": "2113153",
-      "name": "CDM| USA Vs BELGIQUE [PH-32]",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D2113153%26extension%3Dm3u8",
-      "category": "FR| CDM 2026 REPLAY",
-      "logo": "http://51.158.145.100/picons/logos/logos/WORLDCUP2026REPLAY.png"
-    },
-    {
-      "id": "2108107",
-      "name": "CDM| AUSTRALIE Vs EGYPTE [PH-32]",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D2108107%26extension%3Dm3u8",
-      "category": "FR| CDM 2026 REPLAY",
-      "logo": "http://51.158.145.100/picons/logos/logos/WORLDCUP2026REPLAY.png"
-    },
-    {
-      "id": "2108106",
-      "name": "CDM| ARGENTINE Vs CAPVERT [PH-32]",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D2108106%26extension%3Dm3u8",
-      "category": "FR| CDM 2026 REPLAY",
-      "logo": "http://51.158.145.100/picons/logos/logos/WORLDCUP2026REPLAY.png"
-    },
-    {
-      "id": "2108105",
-      "name": "CDM| SUISSE Vs ALGERIE [PH-32]",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D2108105%26extension%3Dm3u8",
-      "category": "FR| CDM 2026 REPLAY",
-      "logo": "http://51.158.145.100/picons/logos/logos/WORLDCUP2026REPLAY.png"
-    },
-    {
-      "id": "2108104",
-      "name": "CDM| COLOMBIE Vs GHANA [PH-32]",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D2108104%26extension%3Dm3u8",
-      "category": "FR| CDM 2026 REPLAY",
-      "logo": "http://51.158.145.100/picons/logos/logos/WORLDCUP2026REPLAY.png"
-    },
-    {
-      "id": "2106501",
-      "name": "CDM| BELGIQUE Vs SENEGAL [PH-32]",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D2106501%26extension%3Dm3u8",
-      "category": "FR| CDM 2026 REPLAY",
-      "logo": "http://51.158.145.100/picons/logos/logos/WORLDCUP2026REPLAY.png"
-    },
-    {
-      "id": "2106500",
-      "name": "CDM| ANGLETERRE Vs RDCONGO [PH-32]",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D2106500%26extension%3Dm3u8",
-      "category": "FR| CDM 2026 REPLAY",
-      "logo": "http://51.158.145.100/picons/logos/logos/WORLDCUP2026REPLAY.png"
-    },
-    {
-      "id": "2106499",
-      "name": "CDM| USA Vs BOSNIE [PH-32]",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D2106499%26extension%3Dm3u8",
-      "category": "FR| CDM 2026 REPLAY",
-      "logo": "http://51.158.145.100/picons/logos/logos/WORLDCUP2026REPLAY.png"
-    },
-    {
-      "id": "2106196",
-      "name": "CDM| MEXIQUE Vs EQUATEUR [PH-32]",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D2106196%26extension%3Dm3u8",
-      "category": "FR| CDM 2026 REPLAY",
-      "logo": "http://51.158.145.100/picons/logos/logos/WORLDCUP2026REPLAY.png"
-    },
-    {
-      "id": "2106195",
-      "name": "CDM| COTEIVOIRE Vs NORVEGE [PH-32]",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D2106195%26extension%3Dm3u8",
-      "category": "FR| CDM 2026 REPLAY",
-      "logo": "http://51.158.145.100/picons/logos/logos/WORLDCUP2026REPLAY.png"
-    },
-    {
-      "id": "2106194",
-      "name": "CDM| FRANCE Vs SUEDE [PH-32]",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D2106194%26extension%3Dm3u8",
-      "category": "FR| CDM 2026 REPLAY",
-      "logo": "http://51.158.145.100/picons/logos/logos/WORLDCUP2026REPLAY.png"
-    },
-    {
-      "id": "2105746",
-      "name": "CDM| BRESIL Vs JAPON [PH-32]",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D2105746%26extension%3Dm3u8",
-      "category": "FR| CDM 2026 REPLAY",
-      "logo": "http://51.158.145.100/picons/logos/logos/WORLDCUP2026REPLAY.png"
-    },
-    {
-      "id": "2105745",
-      "name": "CDM| ALLEMAGNE Vs PARAGUAY [PH-32]",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D2105745%26extension%3Dm3u8",
-      "category": "FR| CDM 2026 REPLAY",
-      "logo": "http://51.158.145.100/picons/logos/logos/WORLDCUP2026REPLAY.png"
-    },
-    {
-      "id": "2105744",
-      "name": "CDM| PAYS BAS Vs MAROC [PH-32]",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D2105744%26extension%3Dm3u8",
-      "category": "FR| CDM 2026 REPLAY",
-      "logo": "http://51.158.145.100/picons/logos/logos/WORLDCUP2026REPLAY.png"
-    },
-    {
-      "id": "2105018",
-      "name": "CDM| COLOMBIE Vs PORTUGAL[GROUPE-G]",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D2105018%26extension%3Dm3u8",
-      "category": "FR| CDM 2026 REPLAY",
-      "logo": "http://51.158.145.100/picons/logos/logos/WORLDCUP2026REPLAY.png"
-    },
-    {
-      "id": "2105017",
-      "name": "CDM| ALGERIE Vs AUTRICHE [GROUPE-G]",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D2105017%26extension%3Dm3u8",
-      "category": "FR| CDM 2026 REPLAY",
-      "logo": "http://51.158.145.100/picons/logos/logos/WORLDCUP2026REPLAY.png"
-    },
-    {
-      "id": "2105016",
-      "name": "CDM| RDCONGO Vs OUZBEKISTAN [GROUPE-G]",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D2105016%26extension%3Dm3u8",
-      "category": "FR| CDM 2026 REPLAY",
-      "logo": "http://51.158.145.100/picons/logos/logos/WORLDCUP2026REPLAY.png"
-    },
-    {
-      "id": "2104941",
-      "name": "CDM| JORDANIE  Vs ARGENTINE [GROUPE-G]",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D2104941%26extension%3Dm3u8",
-      "category": "FR| CDM 2026 REPLAY",
-      "logo": "http://51.158.145.100/picons/logos/logos/WORLDCUP2026REPLAY.png"
-    },
-    {
-      "id": "2104138",
-      "name": "CDM| SENEGAL Vs IRAK [GROUPE-I]",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D2104138%26extension%3Dm3u8",
-      "category": "FR| CDM 2026 REPLAY",
-      "logo": "http://51.158.145.100/picons/logos/logos/WORLDCUP2026REPLAY.png"
-    },
-    {
-      "id": "2104137",
-      "name": "CDM| NORVEGE Vs FRANCE [GROUPE-I]",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D2104137%26extension%3Dm3u8",
-      "category": "FR| CDM 2026 REPLAY",
-      "logo": "http://51.158.145.100/picons/logos/logos/WORLDCUP2026REPLAY.png"
-    },
-    {
-      "id": "2104136",
-      "name": "CDM| URUGUAY Vs ESPAGNE [GROUPE-H]",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D2104136%26extension%3Dm3u8",
-      "category": "FR| CDM 2026 REPLAY",
-      "logo": "http://51.158.145.100/picons/logos/logos/WORLDCUP2026REPLAY.png"
-    },
-    {
-      "id": "2104135",
-      "name": "CDM| CAP VERT Vs ARABIE SAOUDITE [GROUPE-H]",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D2104135%26extension%3Dm3u8",
-      "category": "FR| CDM 2026 REPLAY",
-      "logo": "http://51.158.145.100/picons/logos/logos/WORLDCUP2026REPLAY.png"
-    },
-    {
-      "id": "2104133",
-      "name": "CDM| BELGIQUE Vs NOUVELLE ZELANDE [GROUPE-G]",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D2104133%26extension%3Dm3u8",
-      "category": "FR| CDM 2026 REPLAY",
-      "logo": "http://51.158.145.100/picons/logos/logos/WORLDCUP2026REPLAY.png"
-    },
-    {
-      "id": "2104132",
-      "name": "CDM| EGYPTE Vs IRAN [GROUPE-G]",
-      "url": "https://workerreverseproxy.mafejur8990.workers.dev/hls?headers=%7B%22User-Agent%22%3A%20%22Mozilla/5.0%20%28QtEmbedded%3B%20U%3B%20Linux%3B%20C%29%20AppleWebKit/533.3%20MAG200%20stbapp%20ver%3A%202%20rev%3A%20250%20Safari/533.3%22%2C%20%22Cookie%22%3A%20%22mac%3D00%3A1A%3A79%3A11%3AC4%3A7A%22%7D&url=http%3A//innovationdns.eu%3A80/c/play/live.php%3Fmac%3D00%3A1A%3A79%3A11%3AC4%3A7A%26stream%3D2104132%26extension%3Dm3u8",
-      "category": "FR| CDM 2026 REPLAY",
-      "logo": "http://51.158.145.100/picons/logos/logos/WORLDCUP2026REPLAY.png"
     }
   ]
 }
