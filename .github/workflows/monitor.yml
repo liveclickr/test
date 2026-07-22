@@ -31,6 +31,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add channels.json
+          # 💡 [ফোর্স অ্যাড সলিউশন]: .gitignore-এর ব্লক এড়াতে -f ব্যবহার করা হচ্ছে
+          git add -f channels.json
           git commit -m "Auto-update live sports channels" || exit 0
           git push
