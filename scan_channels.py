@@ -6,10 +6,8 @@ import time
 # ---------------- CONFIGURATION ----------------
 PORTAL_URL = "http://innovationdns.eu:80/c/"
 MAC_ADDRESS = "00:1A:79:11:C4:7A"
-# আপনার দেওয়া ক্লাউডফ্লেয়ার প্রক্সি URL
-PROXY_WORKER_URL = "https://workerreverseproxy.mafejur8990.workers.dev" 
 # আপনি সর্বোচ্চ কতটি সচল চ্যানেল লোড করতে চান
-CHANNEL_LIMIT = 199
+CHANNEL_LIMIT = 150 
 # -----------------------------------------------
 
 HEADERS = {
@@ -49,7 +47,7 @@ def fetch_data():
     except Exception:
         pass
 
-    # ৩. পেজিনেশন (Pagination) লুপের মাধ্যমে লিমিট অনুযায়ী চ্যানেল সংগ্রহ করা
+    # ৩. পেজিনেশন (Pagination) লুপের মাধ্যমে চ্যানেল সংগ্রহ করা
     print("[*] Fetching channel list across pages...", flush=True)
     raw_channels = []
     seen_channel_ids = set()
@@ -103,7 +101,7 @@ def fetch_data():
         return
 
     raw_channels = raw_channels[:CHANNEL_LIMIT]
-    print(f"[+] Successfully retrieved {len(raw_channels)} channels. Structuring play URLs...", flush=True)
+    print(f"[+] Successfully retrieved {len(raw_channels)} channels. Structuring clean JSON output...", flush=True)
 
     processed_channels = []
     
@@ -114,33 +112,30 @@ def fetch_data():
         category = genres_map.get(genre_id, "Live TV")
         logo = ch.get("logo", "")
 
-        # 💡 [IP-Binding এবং টোকেন বাইপাস সলিউশন]:
-        # গিটহাব রানার আইপিতে জেনারেট করা টোকেন অন্য কোথাও চলে না।
-        # তাই আমরা সরাসরি পোর্টালের স্ট্যান্ডার্ড ডিরেক্ট লিঙ্ক জেনারেট করব যা ক্লাউডফ্লেয়ার ওয়ার্কারের মাধ্যমে অন-ডিমান্ড প্লে হবে।
-        final_stream_url = f"{PORTAL_URL}play/live.php?mac={MAC_ADDRESS}&stream={ch_id}&extension=m3u8"
+        # 💡 [পরিষ্কার মূল ইউআরএল]: প্রক্সি বা ইউআরএল প্যারামিটার ছাড়া
+        clean_stream_url = f"http://innovationdns.eu:80/c/play/live.php?mac={MAC_ADDRESS}&stream={ch_id}&extension=m3u8"
 
-        stalker_headers = {
+        # 💡 [আলাদা হেডার অবজেক্ট]
+        channel_headers = {
             "User-Agent": HEADERS["User-Agent"],
             "Cookie": HEADERS["Cookie"]
         }
-        headers_param = requests.utils.quote(json.dumps(stalker_headers))
-        
-        proxied_url = f"{PROXY_WORKER_URL}/hls?headers={headers_param}&url={requests.utils.quote(final_stream_url)}"
 
         processed_channels.append({
             "id": ch_id,
             "name": name,
-            "url": proxied_url,
+            "url": clean_stream_url,
+            "headers": channel_headers,
             "category": category,
             "logo": logo
         })
-        print(f"[{index+1}/{len(raw_channels)}] Formatted: {name}", flush=True)
+        print(f"[{index+1}/{len(raw_channels)}] Processed: {name}", flush=True)
 
-    # ৫. channels.json ফাইলে ডেটা সেভ করা
+    # ৫. channels.json ফাইলে সেভ করা
     output_data = {"channels": processed_channels}
     with open("channels.json", "w", encoding="utf-8") as f:
         json.dump(output_data, f, indent=2, ensure_ascii=False)
-    print(f"[+] Database successfully updated with {len(processed_channels)} channels.", flush=True)
+    print(f"[+] Clean database successfully updated with {len(processed_channels)} channels.", flush=True)
 
 if __name__ == "__main__":
     fetch_data()
