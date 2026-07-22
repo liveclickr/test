@@ -57,25 +57,55 @@ def fetch_data():
     except Exception:
         pass
 
-    # ৩. চ্যানেলের তালিকা সংগ্রহ করা
-    channels_url = f"{PORTAL_URL}server/load.php?type=itv&action=get_ordered_list&token={token}"
-    try:
-        ch_res = session.get(channels_url, timeout=15).json()
-        raw_channels = ch_res.get("js", {}).get("data", []) or ch_res.get("js", [])
-    except Exception as e:
-        print(f"[!] Failed to get channel list: {e}")
-        return
+    # ৩. পেজিনেশন (Pagination) লুপের মাধ্যমে সব চ্যানেল সংগ্রহ করা
+    print("[*] Fetching channel list across all pages...")
+    raw_channels = []
+    page = 1
+    total_items = 9999  # লুপে প্রবেশ করার জন্য ডামি সংখ্যা
+    
+    while len(raw_channels) < total_items:
+        channels_url = f"{PORTAL_URL}server/load.php?type=itv&action=get_ordered_list&p={page}&token={token}"
+        try:
+            ch_res = session.get(channels_url, timeout=15).json()
+            js_data = ch_res.get("js", {})
+            
+            # পোর্টাল যদি পেজিনেশন ফরম্যাটে ডিকশনারি ডাটা পাঠায়
+            if isinstance(js_data, dict):
+                page_data = js_data.get("data", [])
+                total_items = int(js_data.get("total_items", 0))
+                max_page_items = int(js_data.get("max_page_items", 14))
+                
+                if not page_data:
+                    break
+                    
+                raw_channels.extend(page_data)
+                print(f"[+] Page {page}: Loaded {len(page_data)} channels (Total: {len(raw_channels)}/{total_items})")
+                
+                # যদি ডাটা শেষ হয়ে যায় বা এই পেজের সাইজ সর্বোচ্চ লিমিটের চেয়ে কম হয়
+                if len(page_data) < max_page_items or total_items == 0:
+                    break
+            # যদি সরাসরি সম্পূর্ণ তালিকা (Array) রিটার্ন করে
+            elif isinstance(js_data, list):
+                raw_channels = js_data
+                break
+            else:
+                break
+                
+            page += 1
+        except Exception as e:
+            print(f"[!] Failed to fetch page {page}: {e}")
+            break
 
     if not raw_channels:
         print("[!] Channel list is empty.")
         return
 
-    print(f"[+] Retrieved {len(raw_channels)} channels. Generating fresh links...")
+    print(f"[+] Successfully retrieved {len(raw_channels)} channels from portal. Processing stream links...")
 
     processed_channels = []
     
-    # প্রথম ১০০টি মেইন চ্যানেল প্রসেস করার লিমিট
-    limit = 100 
+    # স্ক্র্যাপ করার সর্বোচ্চ চ্যানেল সংখ্যা (প্রয়োজনে এটি আরও বাড়াতে বা কমাতে পারেন)
+    limit = 250 
     for index, ch in enumerate(raw_channels[:limit]):
         ch_id = ch.get("id")
         name = ch.get("name", "Unknown Channel")
@@ -106,7 +136,6 @@ def fetch_data():
             }
             headers_param = requests.utils.quote(json.dumps(stalker_headers))
             
-            # প্রক্সি ওয়ার্কারের মাধ্যমে লিঙ্ক বিল্ড করা
             proxied_url = f"{PROXY_WORKER_URL}/hls?headers={headers_param}&url={requests.utils.quote(final_stream_url)}"
 
             processed_channels.append({
@@ -116,13 +145,13 @@ def fetch_data():
                 "category": category,
                 "logo": logo
             })
-            print(f"[{index+1}/{limit}] Processed: {name}")
+            print(f"[{index+1}/{min(len(raw_channels), limit)}] Processed: {name}")
 
     # ৫. channels.json ফাইলে ডেটা সেভ করা
     output_data = {"channels": processed_channels}
     with open("channels.json", "w", encoding="utf-8") as f:
         json.dump(output_data, f, indent=2, ensure_ascii=False)
-    print("[+] Database successfully updated in channels.json")
+    print(f"[+] Database successfully updated with {len(processed_channels)} channels.")
 
 if __name__ == "__main__":
     fetch_data()
