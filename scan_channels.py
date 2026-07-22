@@ -6,8 +6,9 @@ import time
 # ---------------- CONFIGURATION ----------------
 PORTAL_URL = "http://innovationdns.eu:80/c/"
 MAC_ADDRESS = "00:1A:79:11:C4:7A"
-# আপনার দেওয়া ক্লাউডফ্লেয়ার প্রক্সি URL
 PROXY_WORKER_URL = "https://workerreverseproxy.mafejur8990.workers.dev" 
+# আপনি সর্বোচ্চ কতটি সচল চ্যানেল লোড করতে চান (এটি কম রাখলে স্ক্যান অনেক দ্রুত হবে)
+CHANNEL_LIMIT = 150 
 # -----------------------------------------------
 
 HEADERS = {
@@ -29,7 +30,6 @@ def clean_stream_url(cmd_str):
     return cleaned
 
 def fetch_data():
-    # flush=True ব্যবহারের কারণে গিটহাবে লগ সাথে সাথে প্রিন্ট হবে
     print("[*] Initiating handshake with Stalker Portal...", flush=True)
     session = requests.Session()
     session.headers.update(HEADERS)
@@ -59,15 +59,19 @@ def fetch_data():
     except Exception:
         pass
 
-    # ৩. পেজিনেশন (Pagination) লুপের মাধ্যমে সব চ্যানেল সংগ্রহ করা
-    print("[*] Fetching channel list across all pages...", flush=True)
+    # ৩. পেজিনেশন (Pagination) লুপের মাধ্যমে লিমিট অনুযায়ী চ্যানেল সংগ্রহ করা
+    print("[*] Fetching channel list across pages...", flush=True)
     raw_channels = []
     seen_channel_ids = set()
     page = 1
     total_items = 9999  
     
     while len(raw_channels) < total_items:
-        # standard stalker api requirements: p parameter and JsHttpRequest
+        # লিমিট স্পর্শ করলে পেজ লোডিং লুপ এখানেই বন্ধ হবে (৫ মিনিট সময় বাঁচবে)
+        if len(raw_channels) >= CHANNEL_LIMIT:
+            print(f"[*] Reached target limit of {CHANNEL_LIMIT} channels. Stopping page fetch.", flush=True)
+            break
+
         channels_url = f"{PORTAL_URL}server/load.php?type=itv&action=get_ordered_list&p={page}&JsHttpRequest=1-xml&token={token}"
         try:
             ch_res = session.get(channels_url, timeout=15).json()
@@ -81,7 +85,6 @@ def fetch_data():
                 if not page_data:
                     break
                 
-                # ডুপ্লিকেট চেকার: যদি এই পেজের সব চ্যানেল আগেই লোড হয়ে থাকে, তবে লুপ ভেঙে দেবে
                 new_added = 0
                 for ch in page_data:
                     ch_id = str(ch.get("id"))
@@ -92,7 +95,6 @@ def fetch_data():
                 
                 print(f"[+] Page {page}: Processed {len(page_data)} channels (New added: {new_added}, Total: {len(raw_channels)}/{total_items})", flush=True)
                 
-                # যদি নতুন কোনো চ্যানেল এড না হয় বা পেজে সর্বোচ্চ আইটেমের চেয়ে কম ডাটা থাকে
                 if new_added == 0 or len(page_data) < max_page_items or total_items == 0:
                     break
             elif isinstance(js_data, list):
@@ -102,7 +104,7 @@ def fetch_data():
                 break
                 
             page += 1
-            time.sleep(0.5) # পোর্টাল ওভারলোড এড়ানোর জন্য সামান্য বিরতি
+            time.sleep(0.3)
         except Exception as e:
             print(f"[!] Failed to fetch page {page}: {e}", flush=True)
             break
@@ -111,13 +113,13 @@ def fetch_data():
         print("[!] Channel list is empty.", flush=True)
         return
 
-    print(f"[+] Successfully retrieved {len(raw_channels)} channels from portal. Processing stream links...", flush=True)
+    # আমাদের নির্ধারিত সীমার অতিরিক্ত চ্যানেলগুলো বাদ দেওয়া হচ্ছে
+    raw_channels = raw_channels[:CHANNEL_LIMIT]
+    print(f"[+] Successfully retrieved {len(raw_channels)} channels. Processing stream links...", flush=True)
 
     processed_channels = []
     
-    # স্ক্র্যাপ করার সর্বোচ্চ চ্যানেল সংখ্যা (পোর্টাল ব্যান এড়াতে প্রথম ১৫০টি রাখা হয়েছে, চাইলে বাড়াতে পারেন)
-    limit = 150 
-    for index, ch in enumerate(raw_channels[:limit]):
+    for index, ch in enumerate(raw_channels):
         ch_id = ch.get("id")
         name = ch.get("name", "Unknown Channel")
         genre_id = str(ch.get("tv_genre_id", ""))
@@ -156,7 +158,7 @@ def fetch_data():
                 "category": category,
                 "logo": logo
             })
-            print(f"[{index+1}/{min(len(raw_channels), limit)}] Processed: {name}", flush=True)
+            print(f"[{index+1}/{len(raw_channels)}] Processed: {name}", flush=True)
 
     # ৫. channels.json ফাইলে ডেটা সেভ করা
     output_data = {"channels": processed_channels}
