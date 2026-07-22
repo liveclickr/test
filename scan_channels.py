@@ -142,9 +142,13 @@ def fetch_data():
             final_stream_url = clean_stream_url(cmd)
 
         if final_stream_url:
-            # 💡 [ক্রিটিক্যাল আপডেট]: .ts এক্সটেনশনকে .m3u8 এ কনভার্ট করা হচ্ছে ব্রাউজারে প্লে করার জন্য
+            # .ts এক্সটেনশনকে .m3u8 এ কনভার্ট করা হচ্ছে
             if "extension=ts" in final_stream_url:
                 final_stream_url = final_stream_url.replace("extension=ts", "extension=m3u8")
+
+            # 💡 [ক্রিটিক্যাল আপডেট]: স্টকার পোর্টালে stream= যদি খালি থাকে, তবে সেটিতে চ্যানেলের আইডি (ch_id) বসিয়ে দেওয়া হচ্ছে
+            if "stream=&" in final_stream_url:
+                final_stream_url = final_stream_url.replace("stream=&", f"stream={ch_id}&")
 
             stalker_headers = {
                 "User-Agent": HEADERS["User-Agent"],
