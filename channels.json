@@ -1,6 +1,17 @@
 {
   "channels": [
     {
+      "id": "2162327",
+      "name": "4K| ASTRO SUPERSPORT",
+      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=2162327&extension=m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
+        "Cookie": "mac=00:1A:79:11:C4:7A"
+      },
+      "category": "4K UHD 3840P",
+      "logo": "http://103.176.90.154/picons/logos/LOGOSNEW/4K.png"
+    },
+    {
       "id": "978715",
       "name": "EN| CHRISTMAS 1 4K",
       "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=978715&extension=m3u8",
@@ -1632,17 +1643,6 @@
       "id": "1505558",
       "name": "4K| RELAX ICELAND 4K",
       "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1505558&extension=m3u8",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
-        "Cookie": "mac=00:1A:79:11:C4:7A"
-      },
-      "category": "4K RELAX 1920P",
-      "logo": "http://103.176.90.154/picons/logos/LOGOSNEW/4K-RELAX.png"
-    },
-    {
-      "id": "1505557",
-      "name": "4K| RELAX MOROCCO 4K",
-      "url": "http://innovationdns.eu:80/c/play/live.php?mac=00:1A:79:11:C4:7A&stream=1505557&extension=m3u8",
       "headers": {
         "User-Agent": "Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 MAG200 stbapp ver: 2 rev: 250 Safari/533.3",
         "Cookie": "mac=00:1A:79:11:C4:7A"
